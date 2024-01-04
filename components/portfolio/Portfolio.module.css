@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.switch {
+  display: flex;
+  flex-direction: row;
+}
+.switch p {
+  margin: 0 1.5rem;
+}
+.text {
+  color: #ff7642;
+  font-weight: 200;
+}
+
+.header {
+  font-size: 1.8rem;
+}
+.itemContainer {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

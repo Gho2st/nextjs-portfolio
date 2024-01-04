@@ -1,0 +1,17 @@
+.itemContainer {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 7rem;
+  flex-wrap: wrap;
+  margin-top: 26rem;
+}
+.container{
+  margin: 6rem 0;
+}
+.header {
+  text-align: center;
+  margin-top: 10rem;
+}

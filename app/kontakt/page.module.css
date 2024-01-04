@@ -1,0 +1,27 @@
+.container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 115px;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.header {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.containerRight {
+  margin-left: 6rem;
+}
+
+.containerRight iframe {
+  width: 500px;
+  height: 310px;
+  border-radius: 1rem;
+}

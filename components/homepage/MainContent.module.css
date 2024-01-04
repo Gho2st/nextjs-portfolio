@@ -1,0 +1,65 @@
+.container {
+  margin-top: 10rem;
+}
+
+.header {
+  font-size: 6rem;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.5rem;
+  color: transparent;
+  background: linear-gradient(45deg, #f9fafa, #8be5e3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shimmer 1s infinite linear;
+  
+}
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.textContainer{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+  color: #ebebeb;
+  font-weight: 300;
+  max-width: 30%;
+
+}
+
+.buttonContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 0.8rem;
+  border: 0;
+  border-radius: 0.8rem;
+  background-color: #8be5e3;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.button:hover{
+  transform: scale(1.1);
+}
+.mouse {
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 2rem;
+  color: grey;
+}

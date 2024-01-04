@@ -1,0 +1,61 @@
+.containerLeft {
+  display: flex;
+  flex-direction: column;
+}
+.containerLeft input {
+  margin: 0.7rem 0;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: linear-gradient(
+    229.6deg,
+    rgb(28, 96, 112) 11.2%,
+    rgb(18, 21, 22) 91.1%
+  );
+}
+.containerLeft textarea {
+  background: linear-gradient(
+    229.6deg,
+    rgb(28, 96, 112) 11.2%,
+    rgb(18, 21, 22) 91.1%
+  );
+  border-radius: 1rem;
+  resize: none;
+  width: 100%;
+  height: 150px;
+  padding: 1rem;
+}
+.containerLeft textarea::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+.containerLeft input::placeholder {
+  color: #ffffff;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.header3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.header3 span {
+  color: #8be5e3;
+}
+
+.text {
+  margin: 1rem 0;
+  font-weight: 200;
+  color: rgb(195, 191, 193);
+}
+
+.button {
+  border-radius: 2rem;
+  border: 0;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #8be5e3;
+  color: rgb(47, 38, 38);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}

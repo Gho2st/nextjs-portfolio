@@ -1,0 +1,45 @@
+.header {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+.header span {
+  color: #8be5e3;
+}
+
+.container {
+  margin: auto;
+  margin-top: 5rem;
+  width: 55%;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  padding: 4rem;
+}
+.info h2 {
+  margin-top: 1rem;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+.info p {
+  font-weight: 200;
+  padding-bottom: 1rem;
+}
+
+.button {
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 1rem;
+  background: #8be5e3;
+  color: black;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+

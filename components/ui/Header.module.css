@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  vertical-align: middle;
+}
+
+.logoText {
+  font-size: 1.3rem;
+  
+  vertical-align: middle;
+}
+
+.navbar a {
+  color: #dcd7c9;
+  margin-right: 1.2rem;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 1rem;
+  border: 0;
+  border-radius: 1rem;
+  background-color: #5856e8;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
