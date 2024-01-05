@@ -1,11 +1,11 @@
 .item {
-  margin: 1rem;
-  padding: 1rem;
   border-radius: 2rem;
   width: 30%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: background 0.3s ease;
   cursor: pointer;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
 }
 .item:hover {
   background: rgb(36, 32, 32);
@@ -15,9 +15,11 @@
   font-size: 1.2rem;
   font-weight: 500;
   color: white;
+  padding: 0rem 1rem; 
 }
 
 .text {
+  padding: 1rem;
   font-size: 0.9rem;
   color: #ebebeb;
   font-weight: 200;
@@ -26,6 +28,7 @@
 .img {
   display: flex;
   justify-content: center;
+  
 }
 .image {
   width: 100%;

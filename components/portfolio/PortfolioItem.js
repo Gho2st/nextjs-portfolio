@@ -9,12 +9,12 @@ export default function PortfolioItem(props) {
         <div className={classes.item} onClick={() => window.location.href = props.href}>
           <div className={classes.img}>
             <Image
-              layout="responsive"
               width={410}
               height={250}
               className={classes.image}
               src={props.source}
               alt={props.title}
+              layout="responsive"
             />
           </div>
           <div className={classes.textContainer}>
