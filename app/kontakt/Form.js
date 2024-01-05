@@ -75,7 +75,7 @@ export default function Form() {
         </p>
       )}
 
-      <form onSubmit={sendMail}>
+      <form onSubmit={sendMail} className={classes.form}>
         <label htmlFor="fullName">Imię:</label>
         <input
           type="text"

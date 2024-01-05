@@ -37,6 +37,7 @@
 .header3 {
   font-size: 2rem;
   font-weight: 400;
+  color: white;
 }
 .header3 span {
   color: #8be5e3;
@@ -66,7 +67,9 @@
   margin: 1rem 0;
   
 }
-
+.form label{
+  color: white;
+}
 @media (max-width: 767px) {
   .buttonContainer{
     display: flex;

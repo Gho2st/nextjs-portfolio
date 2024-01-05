@@ -1,7 +1,7 @@
 .card{
     margin-top: 2rem;
     width: 25%;
-    background-color: rgb(49, 42, 42);
+    background-color: rgb(58, 58, 58);
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -27,11 +27,13 @@
 .text{
     padding: 1rem;
     font-weight: 200;
+    color: white;
 }
 
 .autor{
     font-weight: 400;
     padding: 0 1rem;
+    color: white;
 }
 
 @media (max-width: 767px) {

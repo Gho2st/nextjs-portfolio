@@ -2,9 +2,11 @@
   text-align: center;
   font-size: 3rem;
   margin-top: 3rem;
+  color: white;
 }
 .header span {
   color: #8be5e3;
+  
 }
 
 .container {
@@ -20,6 +22,7 @@
 
 .info {
   padding: 4rem;
+  color: white;
 }
 .info h2 {
   margin-top: 1rem;

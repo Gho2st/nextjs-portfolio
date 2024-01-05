@@ -11,6 +11,7 @@
 }
 .switch p {
   margin: 0 1.5rem;
+  color: white;
 }
 .text {
   color: #ff7642;
@@ -19,6 +20,7 @@
 
 .header {
   font-size: 1.8rem;
+  color:white;
 }
 .itemContainer {
   display: flex;

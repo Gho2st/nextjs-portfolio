@@ -1,23 +1,24 @@
-.container{
-    display: flex;
-    justify-content: center;
-    margin: 3rem 0;
-    margin-top: 10rem;
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  margin-top: 10rem;
 }
 
-.container svg{
-    margin: 0 3rem;
-    font-size: 2rem;
+.container svg {
+  margin: 0 3rem;
+  font-size: 2rem;
+  color: white;
 }
 
-.container svg:hover{
-    color: aqua;
-    cursor: pointer;
+.container svg:hover {
+  color: aqua;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {
-    .container svg{
-        margin: 0 1.5rem;
-        font-size: 2rem;
-    }
+  .container svg {
+    margin: 0 1.5rem;
+    font-size: 2rem;
   }
+}

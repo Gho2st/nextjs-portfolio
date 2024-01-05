@@ -21,10 +21,12 @@
 }
 .icon svg {
   font-size: 1.2rem;
+  color: white;
 }
 
 .info {
   padding: 1rem;
+  color: white;
 }
 .info p {
   font-weight: 300;
