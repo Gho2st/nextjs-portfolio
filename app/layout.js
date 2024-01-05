@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={poppins.className}
-        style={{ background: 'url("/back2.png") center/cover no-repeat fixed' }}
       >
         <Header />
         {children}

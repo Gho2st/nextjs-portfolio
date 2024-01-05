@@ -48,11 +48,13 @@
   border-radius: 0.8rem;
   font-size: 1rem;
   background-color: #8be5e3;
-  color: black;
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.3s ease;
   box-shadow: 0 0 1rem #8be5e3;
+}
+.button a{
+  color: black;
 }
 .button:hover {
   transform: scale(1.1);
