@@ -4,6 +4,8 @@ import classes from "./page.module.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
+import Footer from "@/components/ui/Footer";
+import Socials from "@/components/ui/Socials";
 
 export default function Kontakt() {
   return (
@@ -15,7 +17,7 @@ export default function Kontakt() {
           <ContactItem
             icon={<FaLocationDot />}
             header="Location:"
-            info="Radzikowskiego"
+            info="Stacjonarnie - Kraków | Nowy Sącz"
           />
           <ContactItem
             icon={<FaPhoneAlt />}
@@ -30,6 +32,8 @@ export default function Kontakt() {
         referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
+      <Socials/>
+      <Footer/>
     </>
   );
 }

@@ -29,7 +29,7 @@
 .description {
   font-size: 0.9rem;
   color: #ebebeb;
-  font-weight: 200;
+  font-weight: 300;
 }
 .buttonContainer {
   display: flex;
@@ -43,4 +43,14 @@
 
 .button:hover{
   color: #8be5e3;
+}
+@media (max-width: 767px) {
+  .item{
+    width: 100%;
+    margin: 1rem 0rem;
+    text-align: center;
+  }
+  .icon{
+    margin: auto;
+  }
 }

@@ -35,3 +35,29 @@
   opacity: 0.8;
   cursor: pointer;
 }
+.burgerContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.burgerMenu{
+  display: none;
+  font-size: 1.3rem;
+}
+
+.navbarMobile{
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .burgerMenu{
+    display:block;
+  }
+  .navbar{display: none;}
+  .button{
+    display: block;
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+  }
+}
+

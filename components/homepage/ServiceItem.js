@@ -17,11 +17,11 @@ export default function ServiceItem(props) {
         )}
         <h3 className={classes.title}>{props.title}</h3>
         <p className={classes.description}>{props.description}</p>
-        <div className={classes.buttonContainer}>
+        {/* <div className={classes.buttonContainer}>
           <Link href='/' className={classes.button}>
             Read more <FaArrowRight />
           </Link>
-        </div>
+        </div> */}
       </div>
     </>
   );

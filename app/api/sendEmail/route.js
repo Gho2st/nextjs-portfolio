@@ -25,7 +25,7 @@ export async function POST(request) {
             to: 'dominik.jojczyk@gmail.com',
             subject: "Email ze strony DJJ Software od klienta",
             html: `
-        <h3>Hello Dominik</h3>
+        <h2>Wiadomosc od klienta ze strony DJJ Software</h2>
         <li> title: ${services}</li>
         <li> message: ${text}</li>
         <li> email: ${email}</li>

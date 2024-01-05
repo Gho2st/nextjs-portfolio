@@ -25,3 +25,24 @@
   height: 310px;
   border-radius: 1rem;
 }
+@media (max-width: 1447px) {
+  .container{
+    width: 80%;
+  }
+  
+}
+@media (max-width: 897px) {
+  .container {
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerRight {
+    margin-left: 0rem;
+  }
+  .containerRight iframe {
+    width: 300px;
+    height: 310px;
+    border-radius: 1rem;
+  }
+}

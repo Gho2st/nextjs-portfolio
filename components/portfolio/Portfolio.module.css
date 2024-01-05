@@ -24,6 +24,15 @@
   display: flex;
   width: 80%;
   margin: auto;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .itemContainer{
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+  }
 }

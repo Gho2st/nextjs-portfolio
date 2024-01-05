@@ -13,7 +13,6 @@
   background-clip: text;
   -webkit-background-clip: text;
   animation: shimmer 1s infinite linear;
-  
 }
 @keyframes shimmer {
   0% {
@@ -24,7 +23,7 @@
   }
 }
 
-.textContainer{
+.textContainer {
   margin-top: 1.5rem;
   display: flex;
   justify-content: center;
@@ -35,7 +34,6 @@
   color: #ebebeb;
   font-weight: 300;
   max-width: 30%;
-
 }
 
 .buttonContainer {
@@ -45,16 +43,18 @@
 }
 
 .button {
-  padding: 0.8rem;
+  padding: 0.9rem;
   border: 0;
   border-radius: 0.8rem;
+  font-size: 1rem;
   background-color: #8be5e3;
   color: black;
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.3s ease;
+  box-shadow: 0 0 1rem #8be5e3;
 }
-.button:hover{
+.button:hover {
   transform: scale(1.1);
 }
 .mouse {
@@ -62,4 +62,16 @@
   margin-top: 10rem;
   font-size: 2rem;
   color: grey;
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin-top: 7rem;
+  }
+  .header {
+    font-size: 4rem;
+  }
+  .text {
+    max-width: 60%;
+  }
 }

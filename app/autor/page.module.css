@@ -31,15 +31,46 @@
   padding-bottom: 1rem;
 }
 
+.buttonContainer {
+  margin: 1rem 0;
+}
+
 .button {
+  box-shadow: 0 0 1rem #8be5e3;
   padding: 1rem 2rem;
   border: 0;
   border-radius: 1rem;
   background: #8be5e3;
   color: black;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
 }
-
-
+@media (max-width: 767px) {
+  .innerContainer {
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+  }
+  .header {
+    font-size: 2rem;
+  }
+  .buttonContainer{
+    display: flex;
+    justify-content: center;
+  }
+  .info {
+    padding: 2rem;
+  }
+}
+@media (max-width: 1447px) {
+  .container{
+    width: 80%;
+    margin-top: 1rem;
+  }
+  .info{
+    width: 65%;
+  }
+  
+}

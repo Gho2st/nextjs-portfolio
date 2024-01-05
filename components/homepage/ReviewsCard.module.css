@@ -33,3 +33,12 @@
     font-weight: 400;
     padding: 0 1rem;
 }
+
+@media (max-width: 767px) {
+    .card {
+      width: 80%;
+      margin: auto;
+      margin-top: 2rem;
+    }
+  }
+  

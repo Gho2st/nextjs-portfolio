@@ -18,10 +18,37 @@
 .text {
   color: #ebebeb;
   font-size: 0.9rem;
-  font-weight: 100;
+  font-weight: 200;
+  margin-bottom: 1rem;
 }
 
 .cardContainer {
   display: flex;
   justify-content: space-around;
+}
+
+.button{
+  background:#ff7642;
+  border:0 ;
+  border-radius: 1rem;
+  color: black;
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 0rem;
+    padding: 0 2rem;
+  }
+  .cardContainer {
+    flex-direction: column;
+  }
+  .buttonContainer{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
 }

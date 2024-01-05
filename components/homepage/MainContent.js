@@ -3,6 +3,7 @@ import React from "react";
 import classes from "./MainContent.module.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
 
 export default function MainContent() {
   const { scrollY } = useScroll();
@@ -21,7 +22,7 @@ export default function MainContent() {
       </div>
       <div className={classes.buttonContainer}>
         <button className={classes.button}>
-          Get Started <FaArrowRight />
+          <Link href="/kontakt">Zacznijmy! <FaArrowRight /></Link> 
         </button>
       </div>
     </motion.div>

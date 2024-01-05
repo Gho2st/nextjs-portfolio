@@ -15,3 +15,9 @@
   text-align: center;
   margin-top: 10rem;
 }
+
+@media (max-width: 767px) {
+  .itemContainer{
+    flex-direction: column;
+  }
+}

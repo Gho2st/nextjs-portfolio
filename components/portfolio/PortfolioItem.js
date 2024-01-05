@@ -7,9 +7,10 @@ export default function PortfolioItem(props) {
       <div className={classes.item}>
         <div className={classes.img}>
           <Image
+            layout="responsive"
             width={410}
             height={250}
-            style={{ objectFit: "contain" }}
+            className={classes.image}
             src={props.source}
             alt={props.title}
           />
@@ -18,7 +19,6 @@ export default function PortfolioItem(props) {
           <h5 className={classes.header}>{props.title}</h5>
           <p className={classes.text}>{props.text}</p>
         </div>
-        
       </div>
     </>
   );

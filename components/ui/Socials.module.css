@@ -14,3 +14,10 @@
     color: aqua;
     cursor: pointer;
 }
+
+@media (max-width: 767px) {
+    .container svg{
+        margin: 0 1.5rem;
+        font-size: 2rem;
+    }
+  }

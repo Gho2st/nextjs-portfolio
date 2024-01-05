@@ -5,12 +5,20 @@ export default function Reviews() {
   return (
     <>
       <div className={classes.container}>
-        <p className={classes.upText}>Testimonial</p>
-        <h3 className={classes.header}>From Getting Started</h3>
+        <p className={classes.upText}>Google</p>
+        <h3 className={classes.header}>Opinie z profilu firmowego.</h3>
         <p className={classes.text}>
-          Projekt w którym wykorzystany był php, baza danych. Projekt w którym
-          wykorzystany był php, baza danych.
+          Podziel się swoją opinią, aby pomóc innym użytkownikom! Twoja opinia
+          to wirtualny drogowskaz dla innych.
         </p>
+        <div className={classes.buttonContainer}>
+          <a
+            className={classes.button}
+            href="https://g.page/r/CT8XYmYaAmICEBM/review"
+          >
+            Zostaw Opinię!
+          </a>
+        </div>
       </div>
 
       <div className={classes.cardContainer}>

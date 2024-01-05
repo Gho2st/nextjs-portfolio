@@ -58,4 +58,18 @@
   font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
+  box-shadow: 0 0 1rem #8be5e3
+}
+
+.submitted{
+  color: #8be5e3;
+  margin: 1rem 0;
+  
+}
+
+@media (max-width: 767px) {
+  .buttonContainer{
+    display: flex;
+    justify-content: center;
+  }
 }

@@ -33,3 +33,23 @@
   color: #8be5e3;
   font-weight: 300;
 }
+
+
+
+
+@media (max-width: 767px) {
+  .container{
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .textColor {
+    text-align: center;
+  }
+  .header{
+    text-align: center;
+  }
+  .icon{
+    margin-right: 0;
+  }
+}
