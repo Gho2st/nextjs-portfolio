@@ -43,7 +43,7 @@
   .container{
     justify-content: center;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 1rem;
   }
   .textColor {
     text-align: center;
