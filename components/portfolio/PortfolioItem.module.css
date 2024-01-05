@@ -6,6 +6,7 @@
   cursor: pointer;
   overflow: hidden;
   margin-bottom: 1.2rem;
+  margin: 1rem;
 }
 .item:hover {
   background: rgb(36, 32, 32);
@@ -41,6 +42,7 @@
 
 @media (max-width: 767px) {
   .item {
-    width: 100%;
+    width: 80%;
+    margin-top: 2rem;
   }
 }
