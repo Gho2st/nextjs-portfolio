@@ -40,7 +40,7 @@ export default function Header() {
         </div>
         {!isBurgerVisible && (
           <nav className={classes.navbar}>
-            <Link href="/autor">o Autorze</Link>
+            <Link className={classes.link} href="/autor">o Autorze</Link>
             <Link href="/kontakt">
               <button className={classes.button}>Kontakt</button>
             </Link>

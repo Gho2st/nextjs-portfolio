@@ -19,11 +19,13 @@
 }
 
 .navbar a {
-  color: #dcd7c9;
   margin-right: 1.2rem;
   font-size: 1rem;
 }
 
+.link{
+  color: white;
+}
 .button {
   padding: 1rem;
   border: 0;
@@ -59,7 +61,7 @@
   .button{
     display: block;
     margin-top: 1rem;
-    padding: 0.6rem 1rem;
+    padding: 1rem 1rem;
   }
 }
 

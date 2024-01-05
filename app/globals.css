@@ -11,6 +11,11 @@ body {
   background: url("/back2.png") center/cover no-repeat fixed;
 }
 
+@media (max-width: 768px) {
+  body {
+    background: url("/back2.png") center/cover no-repeat fixed;
+  }
+}
 
 
 a{
