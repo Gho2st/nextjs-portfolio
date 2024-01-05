@@ -38,7 +38,7 @@ export default function Header() {
           <nav className={classes.navbar}>
             <Link href="/autor">o Autorze</Link>
             <Link href="/kontakt">
-              <button className={classes.button}>Let's talk</button>
+              <button className={classes.button}>Porozmawiajmy</button>
             </Link>
           </nav>
         )}
@@ -48,7 +48,7 @@ export default function Header() {
           <div>
             <Link href="/autor">o Autorze</Link>
             <Link href="/kontakt">
-              <button className={classes.button}>Let's talk</button>
+              <button className={classes.button}>Porozmawiajmy</button>
             </Link>
           </div>
         </nav>
