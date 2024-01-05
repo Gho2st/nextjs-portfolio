@@ -46,6 +46,15 @@
   font-size: 1rem;
   cursor: pointer;
 }
+@media (max-width: 1447px) {
+  .container {
+    width: 80%;
+    margin-top: 1rem;
+  }
+  .info {
+    width: 65%;
+  }
+}
 @media (max-width: 767px) {
   .innerContainer {
     flex-direction: column;
@@ -56,21 +65,11 @@
   .header {
     font-size: 2rem;
   }
-  .buttonContainer{
+  .buttonContainer {
     display: flex;
     justify-content: center;
   }
   .info {
-    padding: 2rem;
+    width: 100%;
   }
-}
-@media (max-width: 1447px) {
-  .container{
-    width: 80%;
-    margin-top: 1rem;
-  }
-  .info{
-    width: 65%;
-  }
-  
 }

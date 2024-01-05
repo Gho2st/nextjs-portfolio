@@ -35,4 +35,13 @@
     justify-content: center;
     width: 100%;
   }
+  .switch p{
+    display: none;
+  }
+  .text{
+    text-align: center;
+  }
+  .header{
+    font-size: 1.2rem;
+  }
 }

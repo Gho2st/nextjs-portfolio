@@ -36,6 +36,7 @@
     width: 90%;
     justify-content: center;
     flex-direction: column;
+    margin-top: 2rem;
   }
   .containerRight {
     margin-left: 0rem;

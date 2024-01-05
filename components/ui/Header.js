@@ -13,6 +13,10 @@ export default function Header() {
     console.log(isBurgerVisible);
   }
 
+  function hideMenu() {
+    setBurgerVisible(false);
+  }
+
   return (
     <>
       <div className={classes.container}>
@@ -38,7 +42,7 @@ export default function Header() {
           <nav className={classes.navbar}>
             <Link href="/autor">o Autorze</Link>
             <Link href="/kontakt">
-              <button className={classes.button}>Porozmawiajmy</button>
+              <button className={classes.button}>Kontakt</button>
             </Link>
           </nav>
         )}
@@ -46,9 +50,13 @@ export default function Header() {
       {isBurgerVisible && (
         <nav className={classes.navbarMobile}>
           <div>
-            <Link href="/autor">o Autorze</Link>
+            <Link onClick={hideMenu} href="/autor">
+              o Autorze
+            </Link>
             <Link href="/kontakt">
-              <button className={classes.button}>Porozmawiajmy</button>
+              <button onClick={hideMenu} className={classes.button}>
+                Kontakt
+              </button>
             </Link>
           </div>
         </nav>
