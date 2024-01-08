@@ -23,6 +23,7 @@ export default function Portfolio() {
         <PortfolioItem source="/ptaki.png" href="https://nshkipe.com.pl/" title="NSHKiPE - Nowy Sącz" text="Strona wraz z panelem admina napisanym w PHP + mySQL." />
         <PortfolioItem source="/ericar.png" href="https://github.com/Gho2st" title="Ericar - Github." text="Projekt w którym wykorzystany był php, baza danych. Znajduje sie na github." />
         <PortfolioItem source="/dominik.png" href="https://dominikjojczyk.pl/" title="Dominik Jojczyk - portfolio" text="Mój projekt portfolio napisany całkowicie od zera w HTMl, CSS, JS." />
+        <PortfolioItem source="/olmart.png" href="https://olmart-ns.pl/" title="Olmart - Zakład Zduński" text="Strona z wykorzystaniem Bootstrapa i JQuery." />
       </div>
     </>
   );
