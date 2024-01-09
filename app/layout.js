@@ -1,7 +1,7 @@
 import { Poppins } from "@next/font/google";
 import "./globals.css";
 import Header from "@/components/ui/Header";
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics } from "@vercel/analytics/react";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600"],
@@ -16,12 +16,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pl">
-      <body
-        className={poppins.className}
-      >
+      <body className={poppins.className}>
         <Header />
         {children}
-        <Analytics/>
+        <Analytics />
+        <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+        <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>
       </body>
     </html>
   );

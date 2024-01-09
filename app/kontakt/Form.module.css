@@ -12,6 +12,7 @@
     rgb(28, 96, 112) 11.2%,
     rgb(18, 21, 22) 91.1%
   );
+  color: white;
 }
 .containerLeft textarea {
   background: linear-gradient(
@@ -24,6 +25,7 @@
   width: 100%;
   height: 150px;
   padding: 1rem;
+  color: white;
 }
 .containerLeft textarea::placeholder {
   color: #fff;
@@ -48,7 +50,11 @@
   font-weight: 200;
   color: rgb(195, 191, 193);
 }
-
+.text span{
+  color: #8be5e3;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
 .button {
   border-radius: 2rem;
   border: 0;
