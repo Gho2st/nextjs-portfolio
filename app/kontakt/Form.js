@@ -62,7 +62,7 @@ export default function Form() {
       {!formSubmitted ? (
         <div className={classes.containerLeft}>
           <h3 className={classes.header3}>
-            Jak Mozemy Ci <span>Pomóc?</span>
+            Jak Możemy Ci <span>Pomóc?</span>
           </h3>
           {formError && <p style={{ color: "red" }}>{formError}</p>}
 
@@ -143,7 +143,7 @@ export default function Form() {
         <div>
           {" "}
           <h3 className={classes.header3}>
-            Dziekuję za przesłanie formularza.
+            Dziękuję za przesłanie formularza.
           </h3>
           <p className={classes.text}>
             <span>{fullName}</span> - Oto kwiatki dla Ciebie w zamian za wiadomość -
