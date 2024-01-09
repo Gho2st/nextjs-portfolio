@@ -20,8 +20,6 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Analytics />
-        <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
-        <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>
       </body>
     </html>
   );

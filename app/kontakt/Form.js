@@ -59,7 +59,7 @@ export default function Form() {
 
   return (
     <>
-      {!formSubmitted ? (
+      {formSubmitted ? (
         <div className={classes.containerLeft}>
           <h3 className={classes.header3}>
             Jak Mozemy Ci <span>Pomóc?</span>
@@ -154,6 +154,7 @@ export default function Form() {
             width={200}
             height={200}
             layout="responsive"
+            alt="Moj avatar trzymajacy kwiaty"
           />
         </div>
       )}
