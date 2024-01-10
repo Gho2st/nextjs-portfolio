@@ -4,6 +4,7 @@ import classes from "./Header.module.css";
 import Image from "next/image";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Header() {
   const [isBurgerVisible, setBurgerVisible] = useState(false);
@@ -20,7 +21,7 @@ export default function Header() {
   return (
     <>
       <div className={classes.container}>
-        <div className={classes.logoContainer}>
+        <motion.div className={classes.logoContainer} whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
           <Link href="/" className={classes.logo}>
             <Image
               src={"/atom.svg"}
@@ -31,7 +32,7 @@ export default function Header() {
             ></Image>
             <span className={classes.logoText}>DJJ Software</span>
           </Link>
-        </div>
+        </motion.div>
         <div className={classes.burgerContainer}>
           <RxHamburgerMenu
             onClick={clickHandler}

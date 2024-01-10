@@ -1,0 +1,22 @@
+.itemContainer {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.itemContainer svg {
+  font-size: 3.5rem;
+  color: rgb(247, 247, 247);
+}
+
+.itemContainer:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .itemContainer {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+}

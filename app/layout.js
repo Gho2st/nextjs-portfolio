@@ -1,13 +1,12 @@
-import { Poppins } from 'next/font/google'
-
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/ui/Header";
 import { Analytics } from "@vercel/analytics/react";
 
 const poppins = Poppins({
-  weight:['100', '200', '300', '400', '500'],
-  subsets: ['latin'],
-})
+  weight: ["100", "200", "300", "400", "500"],
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "DJJ Software - Agencja Interaktywna",

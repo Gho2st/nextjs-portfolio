@@ -24,8 +24,11 @@
   color: white;
 }
 
-.link{
+.link {
   color: white;
+}
+.link:hover {
+  color: #5856e8;;
 }
 .button {
   padding: 1rem;
@@ -39,34 +42,36 @@
   opacity: 0.8;
   cursor: pointer;
 }
-.burgerContainer{
+.burgerContainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.burgerMenu{
+.burgerMenu {
   display: none;
   font-size: 1.3rem;
   color: white;
 }
 
-.navbarMobile{
+.navbarMobile {
   display: flex;
   justify-content: center;
 }
 @media (max-width: 767px) {
-  .burgerMenu{
-    display:block;
+  .burgerMenu {
+    display: block;
   }
-  .navbar{display: none;}
-  .button{
+  .navbar {
+    display: none;
+  }
+  .button {
     display: block;
     margin-top: 1rem;
     padding: 1rem 1rem;
     font-size: 1rem;
   }
-  .link{
+  .link {
     color: white;
   }
+  
 }
-
