@@ -1,32 +1,28 @@
-"use client";
 import classes from "./Price.module.css";
-import { useState } from "react";
+import PriceItem from "./PriceItem";
 export default function Price() {
-  const [isTextVisible, SetIsTextVisible] = useState(false);
-
-  function clickHandler() {
-    SetIsTextVisible(!isTextVisible);
-  }
-
   return (
-    <div className={classes.container}>
-      <h6 className={classes.header} onClick={clickHandler}>
-        Jakie są koszta indywidualnej strony na zamówienie?
-      </h6>
-      {isTextVisible && (
-        <p className={classes.text}>
-          Koszt projektu tworzenia strony internetowej na zamówienie zaczyna się od <span> 600zł</span>, jednak zależy od wielu
-          czynników, takich jak:
-          <ul className={classes.list}>
-            <li>rodzaj i złożoność witryny,</li>
-            <li>złożoność projektu UX/UI,</li>
-            <li>wielkość zespołu deweloperskiego,</li>
-          </ul>
-          Z tego względu preferujemy indywidualne wyceny po omówieniu pełnego
-          zakresu projektu. Jeśli jesteś zainteresowany dowiedzeniem się więcej
-          na temat szacunków i ogólnych cen - czeka na Ciebie formularz kontaktowy!
-        </p>
-      )}
-    </div>
+    <>
+      <div className={classes.container}>
+        <PriceItem
+          header="Jaki jest koszt strony internetowej?"
+          text="Koszt projektu polegającego na stworzeniu strony internetowej na zamówienie zaczyna się od 600zł. Jednak zależy od wielu czynników, m.in.:
+
+— rodzaj i funkcjonalność,
+
+— złożoność projektu UX/UI,
+
+Z tego względu preferujemy wycenę na zamówienie indywidualnie po omówieniu całościowego zakresu projektu. Jeśli chcesz dowiedzieć się więcej na temat szacunków czeka na Ciebie formularz kontaktowy!"
+        />
+        <PriceItem
+          header="Jaki jest czas realizacji projektu?"
+          text="Zazwyczaj czas od planowania do zrealizowania projektu w DJJ Software wynosi do tygodnia czasu. "
+        />
+        <PriceItem
+          header="Ile kosztuje utrzymanie witryny internetowej?"
+          text="ceny hostingu (ok. 120-150zł rocznie), domeny (50zł rocznie). Cena zarejestrowania domeny na pierwszy rok jest -50%. "
+        />
+      </div>
+    </>
   );
 }
