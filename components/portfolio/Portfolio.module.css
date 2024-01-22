@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  justify-content: space-between;
   width: 80%;
   margin: auto;
 }
@@ -27,12 +26,19 @@
   width: 80%;
   margin: auto;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 3rem;
 }
 
-@media (max-width: 767px) {
+
+@media (max-width:1200px){
+  .itemContainer{
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 967px) {
   .itemContainer{
     margin: auto;
     justify-content: center;
