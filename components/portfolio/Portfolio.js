@@ -10,11 +10,11 @@ export default function Portfolio() {
           <p className={classes.text}>Zobacz, co udało nam się stworzyć!</p>
           <h3 className={classes.header}>Przykładowe realizacje</h3>
         </div>
-        <div className={classes.switch}>
+        {/* <div className={classes.switch}>
           <p>All works</p>
-          {/* <p>All works</p>
-          <p>All works</p> */}
-        </div>
+          <p>All works</p>
+          <p>All works</p>
+        </div> */}
       </div>
       <div className={classes.itemContainer}>
         <PortfolioItem source="/optyk.png" href="https://optyk-andrzej.pl/" title="Optyk - Andrzej Świerczek 1980" text="Strona internetowa wykonana w całości z uzyciem Bootstrapa." />
