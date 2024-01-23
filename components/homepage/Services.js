@@ -16,16 +16,16 @@ export default function Services() {
           description="Oferuję nietypowe strony internetowe, które są jak najnowszy model smartfona - nowoczesne, funkcjonalne i urzekające. Twoja strona będzie przepiękna, łatwa w obsłudze i przyjazna dla Google!"
         />
         <ServiceItem
-          title="Grafiki"
+          title="Oprogramowanie"
           icon={<IoLogoWebComponent />}
           background="red"
-          description="Grafika ma kluczowe znaczenie dla nowoczesnej reklamy, ponieważ zapewnia elementy wizualne, takie jak obrazy, filmy i ilustracje, które sprawiają, że przekaz zapada w pamięć."
+          description="Moim celem jako programisty jest tworzenie oprogramowania, które nie tylko spełnia oczekiwania, ale także stawia nowe standardy innowacji. Zastanówmy się nad automazacją Twojej działałności."
         />
         <ServiceItem
           title="Aplikacje Mobilne"
           icon={<CiMobile1 />}
           background="blue"
-          description="Bez względu na to, czy potrzebujesz aplikacji biznesowej, edukacyjnej czy rozrywkowej, jesteśmy gotowi przekształcić Twoje pomysły w interaktywne i intrygujące doświadczenia mobilne."
+          description="Bez względu na to, czy potrzebujesz aplikacji biznesowej, edukacyjnej czy rozrywkowej, jestem gotowy przekształcić Twoje pomysły w interaktywne i intrygujące doświadczenia mobilne."
         />
       </div>
     </>

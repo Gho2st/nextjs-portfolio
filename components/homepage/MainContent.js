@@ -21,14 +21,14 @@ export default function MainContent() {
         <Animation />
       </div>
 
-      <div className={classes.container} >
+      <div className={classes.container}>
         {/* <h1 className={classes.header}>DJJ Software</h1> */}
         <div className={classes.textContainer}>
           <p className={classes.text}>
-            Djj Software to miejsce, gdzie innowacje technologiczne łączą się z pasją do
-            projektowania stron internetowych. Tworzymy unikalne, nowoczesne i
-            responsywne strony, które przyciągają uwagę i pozostawiają trwałe
-            wrażenie.
+            Djj Software to miejsce, gdzie jako programista łączę swoją pasję do
+            technologii z umiejętnościami projektowania stron internetowych.
+            Tworzę unikalne, nowoczesne i responsywne strony, które przyciągają
+            uwagę i pozostawiają trwałe wrażenie.
           </p>
         </div>
         <div className={classes.buttonContainer}>
