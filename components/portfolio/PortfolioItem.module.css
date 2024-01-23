@@ -7,6 +7,7 @@
   overflow: hidden;
   margin-bottom: 1.2rem;
   margin: 1rem;
+  background-color: rgb(18, 18, 18);
 }
 .item:hover {
   background: rgb(36, 32, 32);
@@ -16,7 +17,7 @@
   font-size: 1.2rem;
   font-weight: 500;
   color: white;
-  padding: 0rem 1rem; 
+  padding: 0rem 1rem;
 }
 
 .text {
@@ -29,7 +30,6 @@
 .img {
   display: flex;
   justify-content: center;
-  
 }
 .image {
   width: 100%;

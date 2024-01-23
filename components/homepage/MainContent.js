@@ -4,34 +4,44 @@ import classes from "./MainContent.module.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
+import Animation from "../threejs/Animation";
 
 export default function MainContent() {
   const { scrollY } = useScroll();
-  const yScale = useTransform(scrollY, [0, 500], [1, 1.3]);
-  const yText = useTransform(scrollY, [0, 100, 200], [0, 150, 250]);
+  const yScale = useTransform(scrollY, [0, 1300], [1, 1.5]);
+  const yText = useTransform(
+    scrollY,
+    [0, 20, 50, 100, 200],
+    [0, 20, 50, 100, 200]
+  );
 
   return (
-    <motion.div
-      className={classes.container}
-      style={{ scale: yScale, y: yText }}
-      animate={{
-        scale: [1,1.2, 1.3, 1.4 ,1.3, 1.2, 1],
-      }}
-    >
-      <h1 className={classes.header}>Digital Agency</h1>
-      <div className={classes.textContainer}>
-        <p className={classes.text}>
-          Strony internetowe, aplikacje mobilne, UX UI design, loga, branding,
-          social media marketing.
-        </p>
+    <>
+      <div>
+        <Animation />
       </div>
-      <div className={classes.buttonContainer}>
-        <button className={classes.button}>
-          <Link href="/kontakt">
-            Zacznijmy! <FaArrowRight />
-          </Link>
-        </button>
-      </div>
-    </motion.div>
+
+      <motion.div
+        className={classes.container}
+        style={{ scale: yScale, y: yText }}
+      >
+        {/* <h1 className={classes.header}>DJJ Software</h1> */}
+        <div className={classes.textContainer}>
+          <p className={classes.text}>
+            To miejsce, gdzie innowacje technologiczne łączą się z pasją do
+            projektowania stron internetowych. Tworzymy unikalne, nowoczesne i
+            responsywne strony, które przyciągają uwagę i pozostawiają trwałe
+            wrażenie.
+          </p>
+        </div>
+        <div className={classes.buttonContainer}>
+          <button className={classes.button}>
+            <Link href="/kontakt">
+              Zacznijmy! <FaArrowRight />
+            </Link>
+          </button>
+        </div>
+      </motion.div>
+    </>
   );
 }

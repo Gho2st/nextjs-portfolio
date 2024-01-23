@@ -4,10 +4,10 @@
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: background 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
-  
+  background-color: rgb(18, 18, 18);
 }
 .item:hover {
-  background-color: rgb(36, 32, 32);;
+  background-color: rgb(36, 32, 32);
   transform: scale(1.1);
   opacity: 0.9;
 }
@@ -25,11 +25,12 @@
   font-size: 3.5rem;
 }
 .title {
+  font-size: 1.5rem;
   margin: 1.3rem 0;
   color: white;
 }
 .description {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ebebeb;
   font-weight: 300;
 }
@@ -43,16 +44,16 @@
   color: #ff7642;
 }
 
-.button:hover{
+.button:hover {
   color: #8be5e3;
 }
 @media (max-width: 767px) {
-  .item{
+  .item {
     width: 100%;
     margin: 1rem 0rem;
     text-align: center;
   }
-  .icon{
+  .icon {
     margin: auto;
   }
 }

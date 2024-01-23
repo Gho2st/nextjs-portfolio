@@ -1,7 +1,6 @@
-.container {
-  margin-top: 10rem;
+.container{
+  margin-top: 1rem;
 }
-
 .header {
   font-size: 6rem;
   font-weight: 500;
@@ -33,11 +32,12 @@
   text-align: center;
   color: #ebebeb;
   font-weight: 300;
-  max-width: 30%;
+  max-width: 45%;
+  font-size: 1.2rem;
 }
 
 .buttonContainer {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: center;
 }
@@ -52,28 +52,25 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   box-shadow: 0 0 1rem #8be5e3;
+  z-index: 2;
 }
-.button a{
+.button a {
   color: black;
 }
 .button:hover {
   transform: scale(1.1);
 }
-.mouse {
-  text-align: center;
-  margin-top: 10rem;
-  font-size: 2rem;
-  color: grey;
-}
+
 
 @media (max-width: 767px) {
   .container {
-    margin-top: 7rem;
+    margin-top: 1.5rem;
   }
   .header {
     font-size: 4rem;
   }
   .text {
-    max-width: 60%;
+    max-width: 80%;
+    font-size: 1.2rem;
   }
 }

@@ -21,7 +21,7 @@ export default function Form() {
     setErrorFields(emptyFields);
 
     if (emptyFields.length > 0) {
-      setFormError("Please fill in all required fields.");
+      setFormError("Proszę uzupełnij wszystkie wymagane pola.");
       return;
     }
 

@@ -1,4 +1,6 @@
 .container {
+  margin: auto;
+  max-width: 70%;
   border-top: 0.01rem #515454 solid;
 }
 

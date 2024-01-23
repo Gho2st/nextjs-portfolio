@@ -7,11 +7,12 @@
   border-radius: 1rem;
   padding: 0.5rem;
   margin-top: 1.2rem;
+  background-color: rgb(18, 18, 18);
 }
 
 .container:hover {
   cursor: pointer;
-  background: rgb(53, 44, 44);
+  background: rgb(37, 37, 37);
 }
 .innerContainer {
   display: flex;
