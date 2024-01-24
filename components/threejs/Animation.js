@@ -12,9 +12,6 @@ export default function Animation() {
         <Float speed={4} rotationIntensity={1} floatIntensity={2}>
           <Atom />
         </Float>
-        <EffectComposer>
-          <Bloom mipmapBlur luminanceThreshold={1} radius={0.5} />
-        </EffectComposer>
       </Canvas>
     </div>
   );

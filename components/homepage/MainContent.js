@@ -27,8 +27,6 @@ export default function MainContent() {
           <p className={classes.text}>
             Djj Software to miejsce, gdzie jako programista łączę swoją pasję do
             technologii z umiejętnościami projektowania stron internetowych.
-            Tworzę unikalne, nowoczesne i responsywne strony, które przyciągają
-            uwagę i pozostawiają trwałe wrażenie.
           </p>
         </div>
         <div className={classes.buttonContainer}>
