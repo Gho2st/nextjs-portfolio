@@ -1,14 +1,13 @@
 import * as THREE from "three";
-import { useMemo, useRef } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { Trail, Float, Line, Sphere, Stars } from "@react-three/drei";
-import { EffectComposer, Bloom } from "@react-three/postprocessing";
+import { useMemo, useRef, useEffect } from "react";
+import { Canvas, useFrame, useThree } from "@react-three/fiber";
+import { Trail, Float, Line, Sphere } from "@react-three/drei";
 import classes from "./Animations.module.css";
 
 export default function Animation() {
   return (
     <div className={classes.animation}>
-      <Canvas camera={{ position: [0, 0, 5] }} >
+      <Canvas camera={{ position: [0, 0, 5] }}>
         <Float speed={4} rotationIntensity={1} floatIntensity={2}>
           <Atom />
         </Float>
@@ -17,7 +16,9 @@ export default function Animation() {
   );
 }
 
-function Atom(props) {
+function Atom( props ) {
+  
+
   const points = useMemo(
     () =>
       new THREE.EllipseCurve(0, 0, 3, 1.15, 0, 2 * Math.PI, false, 0).getPoints(
@@ -42,7 +43,7 @@ function Atom(props) {
         lineWidth={0.3}
         rotation={[0, 0, -1]}
       />
-      <Electron position={[0, 0, 0.5]} speed={6} />
+      <Electron position={[0, 0, 0.5]} speed={3} />
       <Electron
         position={[0, 0, 0.5]}
         rotation={[0, 0, Math.PI / 3]}
@@ -74,7 +75,7 @@ function Electron({ radius = 2.75, speed = 6, ...props }) {
     <group {...props}>
       <Trail
         local
-        width={5}
+        width={3}
         length={6}
         color={new THREE.Color(2, 1, 10)}
         attenuation={(t) => t * t}

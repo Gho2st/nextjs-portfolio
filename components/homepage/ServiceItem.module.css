@@ -4,7 +4,7 @@
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: background 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
-  background-color: rgb(18, 18, 18);
+  background-color: #323232
 }
 .item:hover {
   background-color: rgb(36, 32, 32);
@@ -55,5 +55,15 @@
   }
   .icon {
     margin: auto;
+  }
+  .description {
+    font-size: 0.85rem;
+    color: #ebebeb;
+    font-weight: 300;
+  }
+  .title {
+    font-size: 1.35rem;
+    margin: 1.2rem 0;
+    color: white;
   }
 }

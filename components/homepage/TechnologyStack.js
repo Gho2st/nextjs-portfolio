@@ -4,7 +4,7 @@ import classes from "./TechnologyStack.module.css";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { FaWordpressSimple } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
 import TechnologyItem from "./TechnologyItem";
 
 const technologiesData = [
@@ -24,9 +24,9 @@ const technologiesData = [
     text: "WordPress jest znany ze swojej łatwości obsługi. Nawigacja w panelu administracyjnym, dodawanie treści i aktualizacja stron są intuicyjne nawet dla osób bez zaawansowanej wiedzy technicznej.",
   },
   {
-    name: "Bootstrap",
-    icon: <FaBootstrap />,
-    text: "Bootstrap to popularny framework front-endowy oparty na HTML, CSS i JavaScript, stworzony przez zespół programistyczny Twittera. Głównym celem Bootstrapa jest ułatwienie projektowania responsywnych i estetycznych stron internetowych. ",
+    name: "Python",
+    icon: <FaPython />,
+    text: "Python jest używany do różnorodnych zastosowań, takich jak tworzenie oprogramowania, analiza danych, sztuczna inteligencja, uczenie maszynowe, automatyzacja, a także tworzenie stron internetowych.",
   },
 ];
 
@@ -47,10 +47,11 @@ export default function TechnologyStack() {
           <TechnologyItem
             key={tech.name}
             style={
-              activeTechnology === tech.name ? { background: "#8be5e3" } : {}
+              activeTechnology === tech.name ? { background: "red" } : {}
             }
             icon={tech.icon}
             onClick={() => handleItemClick(tech.name)}
+            isActive = {activeTechnology}
           />
         ))}
       </div>

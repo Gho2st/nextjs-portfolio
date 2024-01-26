@@ -68,7 +68,7 @@ export default function Form() {
 
           <p className={classes.text}>
             Potrzebujesz strony internetowej? aplikacji? pomocy IT? - po prostu
-            podaj więcej szczegółów i pomysłów. A my przyjdziemy z pomocą do
+            podaj więcej szczegółów i pomysłów. A ja przyjdę z pomocą do
             Ciebie.
           </p>
 

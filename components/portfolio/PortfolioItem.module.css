@@ -7,7 +7,7 @@
   overflow: hidden;
   margin-bottom: 1.2rem;
   margin: 1rem;
-  background-color: rgb(18, 18, 18);
+  background-color: #323232;
 }
 .item:hover {
   background: rgb(36, 32, 32);
