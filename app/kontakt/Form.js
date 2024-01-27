@@ -62,7 +62,7 @@ export default function Form() {
       {!formSubmitted ? (
         <div className={classes.containerLeft}>
           <h3 className={classes.header3}>
-            Jak Możemy Ci <span>Pomóc?</span>
+            Jak Mogę Ci <span>Pomóc?</span>
           </h3>
           {formError && <p style={{ color: "red" }}>{formError}</p>}
 
@@ -134,7 +134,7 @@ export default function Form() {
             />
             <div className={classes.buttonContainer}>
               <button type="submit" className={classes.button}>
-                Send Message!
+                Wyślij wiadomość!
               </button>
             </div>
           </form>

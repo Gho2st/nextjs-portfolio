@@ -19,4 +19,7 @@
     margin: 0.5rem;
     padding: 0.5rem;
   }
+  .itemContainer svg{
+    font-size: 2.6rem;
+  }
 }

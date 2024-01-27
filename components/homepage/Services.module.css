@@ -6,7 +6,7 @@
   justify-content: space-around;
   margin-bottom: 7rem;
   flex-wrap: wrap;
-  margin-top: 9.5rem;
+  margin-top: 8.5rem;
 }
 .container{
   margin: 6rem 0;
@@ -19,5 +19,6 @@
 @media (max-width: 767px) {
   .itemContainer{
     flex-direction: column;
+    margin-top: 5rem;
   }
 }
