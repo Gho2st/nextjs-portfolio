@@ -51,6 +51,9 @@
 
 @media (max-width: 767px) {
   .container {
-    width: 90%;
+    width: 85%;
+  }
+  .header{
+    font-size: 1rem;
   }
 }
