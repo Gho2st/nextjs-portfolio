@@ -34,6 +34,8 @@ a{
 
 /* Kiedy użytkownik najedzie myszką na pasek przewijania */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #555; /* Zmieniony kolor kciuka po najechaniu myszką */
+  background-color: #555; 
 }
-
+.slick-dots li button::before {
+  color: #ffffff  !important;
+}
