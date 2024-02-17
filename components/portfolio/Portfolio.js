@@ -25,6 +25,8 @@ export default function Portfolio() {
         <PortfolioItem source="/dominik.png" href="https://dominikjojczyk.pl/" title="Dominik Jojczyk - portfolio" text="Mój projekt portfolio napisany całkowicie od zera w HTMl, CSS, JS." />
         <PortfolioItem source="/olmart.png" href="https://olmart-ns.pl/" title="Olmart - Zakład Zduński" text="Strona z wykorzystaniem Bootstrapa i JQuery." />
         <PortfolioItem source="/dna.png" href="https://github.com/Gho2st" title="Analiza sekwencji DNA" text="Aplikacja stworzona jako projekt bioinformatyczny." />
+        <PortfolioItem source="/telmech.png" href="https://github.com/Gho2st" title="Telmech - obróbka stali" text="Bootstrap, js" />
+        <PortfolioItem source="/tomy.png" href="https://tomy-myje-remontuje.pl" title="ToMy - Myje & Remontuje" text="Strona dla firmy zajmującej sie pracami porządkowymi" />
       </div>
     </>
   );

@@ -8,7 +8,6 @@ import Reviews from "@/components/homepage/Reviews";
 import TechnologyStack from "@/components/homepage/TechnologyStack";
 import Price from "@/components/homepage/Price";
 
-
 export default function Home() {
   return (
     <>

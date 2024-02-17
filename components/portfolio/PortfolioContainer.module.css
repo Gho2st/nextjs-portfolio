@@ -1,0 +1,53 @@
+.Container {
+  background: black;
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0rem 3rem;
+  max-height: 600px;
+}
+
+.portfolioItemInfo {
+  border-top: 1px dotted rgb(82, 82, 82);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 2rem;
+}
+
+.left {
+  padding-left: 2rem;
+  width: 50%;
+}
+
+.left h3 {
+  font-size: 1.5rem;
+}
+
+.category {
+  border-radius: 0.1rem;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  background-color: rgb(99, 99, 99);
+  color: rgb(183, 183, 183);
+  width: 110px;
+  text-align: center;
+}
+.category h4 {
+  font-weight: bold;
+}
+
+.right {
+  width: 65%;
+}
+.description {
+  margin-bottom: 2rem;
+  font-weight: 100;
+  color: azure;
+}
