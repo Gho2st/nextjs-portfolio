@@ -9,8 +9,19 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "DJJ Software - Agencja Interaktywna",
-  description: "Potrzebujesz Strony Internetowej? Zapraszamy do kontaktu!",
+  metadataBase: new URL("https://djj-software.pl"),
+  title: {
+    default: "DJJ Software - Agencja Interaktywna",
+    template: "%s - DJJ Software - Agencja Interaktywna",
+  },
+  description:
+    "Szukasz dla siebie responsywnej strony internetowej? Tania, pozycjonowana witryna czeka na Ciebie. Zapraszamy!",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    images: "/opengraph-image.png",
+  },
 };
 
 export default function RootLayout({ children }) {

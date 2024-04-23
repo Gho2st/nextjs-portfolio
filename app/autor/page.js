@@ -3,6 +3,13 @@ import Image from "next/image";
 import Footer from "@/components/ui/Footer";
 import Socials from "@/components/ui/Socials";
 
+export const metadata = {
+  title: "Autor",
+  alternates: {
+    canonical: "/autor",
+  },
+};
+
 export default function Autor() {
   return (
     <>
@@ -45,8 +52,8 @@ export default function Autor() {
           </div>
         </div>
       </div>
-      <Socials/>
-      <Footer/>
+      <Socials />
+      <Footer />
     </>
   );
 }

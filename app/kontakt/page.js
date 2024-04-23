@@ -6,6 +6,14 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import Footer from "@/components/ui/Footer";
 import Socials from "@/components/ui/Socials";
+import { Metadata } from "next";
+
+export const metadata = {
+  title: "Kontakt",
+  alternates: {
+    canonical: "/kontakt",
+  },
+};
 
 export default function Kontakt() {
   return (
