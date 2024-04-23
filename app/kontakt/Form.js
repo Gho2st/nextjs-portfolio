@@ -61,9 +61,9 @@ export default function Form() {
     <>
       {!formSubmitted ? (
         <div className={classes.containerLeft}>
-          <h3 className={classes.header3}>
+          <h1 className={classes.header3}>
             Jak Mogę Ci <span>Pomóc?</span>
-          </h3>
+          </h1>
           {formError && <p style={{ color: "red" }}>{formError}</p>}
 
           <p className={classes.text}>
