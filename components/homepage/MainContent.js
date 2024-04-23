@@ -15,10 +15,10 @@ export default function MainContent() {
 
       <div className={classes.container}>
         <div className={classes.textContainer}>
-          <p className={classes.text}>
+          <h1 className={classes.text}>
             Djj Software to miejsce, gdzie jako programista łączę swoją pasję do
             technologii z umiejętnościami projektowania stron internetowych.
-          </p>
+          </h1>
         </div>
         <div className={classes.buttonContainer}>
           <button className={classes.button}>

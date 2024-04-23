@@ -15,7 +15,7 @@ export const metadata = {
     template: "%s - DJJ Software - Agencja Interaktywna",
   },
   description:
-    "Szukasz dla siebie responsywnej strony internetowej? Tania, pozycjonowana witryna czeka na Ciebie. Zapraszamy!",
+    "W poszukiwaniu responsywnej strony internetowej? Zapraszamy do skorzystania z naszej oferty - tania i zoptymalizowana pod kątem pozycjonowania witryna jest już dla Ciebie dostępna!",
   alternates: {
     canonical: "/",
   },
