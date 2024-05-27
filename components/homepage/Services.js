@@ -13,19 +13,19 @@ export default function Services() {
           title="Strony internetowe"
           icon={<IoCodeSlash />}
           background="green"
-          description="Oferuję nietypowe strony internetowe, które są jak najnowszy model smartfona - nowoczesne, funkcjonalne i urzekające. Twoja strona będzie przepiękna, łatwa w obsłudze i przyjazna dla Google!"
+          description="Oferuję strony internetowe, które zamierzam rozwijać wspólnie od pierwszego kontaktu do samego końca. Każda witryna powinna mieć w sobie coś wyróżniającego."
         />
         <ServiceItem
-          title="Oprogramowanie"
+          title="Pozycjonowanie"
           icon={<IoLogoWebComponent />}
           background="red"
-          description="Moim celem jako programisty jest tworzenie oprogramowania, które nie tylko spełnia oczekiwania, ale także stawia nowe standardy innowacji. Zastanówmy się nad automazacją Twojej działałności."
+          description="Moim celem jest stworzenie strony internetowej na pierwszym miejscu w rankingu wyszukiwarek. Przedewszystkim daje wsparcie klientowi jak to uzyskać i przebić się na podium."
         />
         <ServiceItem
-          title="Aplikacje Mobilne"
+          title="Wsparcie"
           icon={<CiMobile1 />}
           background="blue"
-          description="Bez względu na to, czy potrzebujesz aplikacji biznesowej, edukacyjnej czy rozrywkowej, jestem gotowy przekształcić Twoje pomysły w interaktywne i intrygujące doświadczenia mobilne."
+          description="Bez względu na to, czy jesteś moim klientem, znajomym czy po prostu masz pytanie, mozesz liczyć na moją empatię i zaangażowanie w to co chcesz osiągnąć."
         />
       </div>
     </>

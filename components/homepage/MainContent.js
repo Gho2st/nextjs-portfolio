@@ -5,7 +5,6 @@ import { FaArrowRight } from "react-icons/fa6";
 import Link from "next/link";
 import Animation from "../threejs/Animation";
 
-
 export default function MainContent() {
   return (
     <>
@@ -16,8 +15,10 @@ export default function MainContent() {
       <div className={classes.container}>
         <div className={classes.textContainer}>
           <h1 className={classes.text}>
-            Domiweb to miejsce, gdzie jako programista łączę swoją pasję do
-            technologii z umiejętnościami projektowania stron internetowych.
+            Domiweb to miejsce, gdzie uzyskasz stronę internetową z
+            pozycjonowaniem w rankingu wyszukiwarki oraz z opiekę nad witryną.
+            Nie musisz znać spraw technicznych, wszystko zostanie dla Ciebie
+            przygotowane i wytłumaczone.
           </h1>
         </div>
         <div className={classes.buttonContainer}>

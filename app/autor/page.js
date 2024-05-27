@@ -42,7 +42,7 @@ export default function Autor() {
             <div className={classes.buttonContainer}>
               <a
                 className={classes.button}
-                href="/cv-dominik-jojczyk-pl.pdf"
+                href="/cv-dominik-jojczyk.pdf"
                 download="Dominik-CV"
                 target="_blank "
               >
