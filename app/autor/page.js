@@ -14,7 +14,7 @@ export default function Autor() {
   return (
     <>
       <h1 className={classes.header}>
-        Dowiedz się troche <span>wiecej!</span>
+        Dowiedz się trochę <span>więcej!</span>
       </h1>
       <div className={classes.container}>
         <div className={classes.innerContainer}>
