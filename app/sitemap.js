@@ -1,19 +1,19 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://djj-software.pl',
+      url: 'https://domiweb.pl',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: 'https://djj-software.pl/kontakt',
+      url: 'https://domiweb.pl/kontakt',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://djj-software.pl/autor',
+      url: 'https://domiweb.pl/autor',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.5,

@@ -9,10 +9,10 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://djj-software.pl"),
+  metadataBase: new URL("https://domiweb.pl"),
   title: {
-    default: "DJJ Software - Agencja Interaktywna",
-    template: "%s - DJJ Software - Agencja Interaktywna",
+    default: "Domiweb - Strony Internetowe Nowy Sącz",
+    template: "%s - Domiweb - Strony Internetowe Nowy Sącz",
   },
   description:
     "W poszukiwaniu responsywnej strony internetowej? Zapraszamy do skorzystania z naszej oferty - tania i zoptymalizowana pod kątem pozycjonowania witryna jest już dla Ciebie dostępna!",

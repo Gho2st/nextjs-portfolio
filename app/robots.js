@@ -11,6 +11,6 @@ export default function robots(){
                 disallow: ["/admin", "privacy"]
             }
         ],
-        sitemap: `https://djj-software.pl/sitemap.xml`
+        sitemap: `https://domiweb.pl/sitemap.xml`
     }
 }

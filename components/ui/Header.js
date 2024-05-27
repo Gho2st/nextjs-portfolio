@@ -27,10 +27,10 @@ export default function Header() {
               src={"/atom.svg"}
               width={40}
               height={40}
-              alt="logo firmy DJJ software w ksztalcie atomu"
+              alt="logo firmy Domiweb w ksztalcie atomu"
               className={classes.logoImage}
             ></Image>
-            <span className={classes.logoText}>DJJ Software</span>
+            <span className={classes.logoText}>Domiweb</span>
           </Link>
         </motion.div>
         <div className={classes.burgerContainer}>

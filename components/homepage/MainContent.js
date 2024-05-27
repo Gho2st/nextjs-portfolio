@@ -16,7 +16,7 @@ export default function MainContent() {
       <div className={classes.container}>
         <div className={classes.textContainer}>
           <h1 className={classes.text}>
-            Djj Software to miejsce, gdzie jako programista łączę swoją pasję do
+            Domiweb to miejsce, gdzie jako programista łączę swoją pasję do
             technologii z umiejętnościami projektowania stron internetowych.
           </h1>
         </div>

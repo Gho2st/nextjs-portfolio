@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <>
       <div className={classes.container}>
-        <p className={classes.text}> Djj Software by Dominik &copy; {currentYear}</p>
+        <p className={classes.text}> Domiweb by Dominik &copy; {currentYear}</p>
       </div>
     </>
   );

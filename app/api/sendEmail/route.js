@@ -23,9 +23,9 @@ export async function POST(request) {
         const mailOption = {
             from: 'dominik.jojczyk@gmail.com',
             to: 'dominik.jojczyk@gmail.com',
-            subject: "Email ze strony DJJ Software od klienta",
+            subject: "Email ze strony Domiweb od klienta",
             html: `
-        <h2>Wiadomosc od klienta ze strony DJJ Software</h2>
+        <h2>Wiadomosc od klienta ze strony Domiweb</h2>
         <li> title: ${services}</li>
         <li> message: ${text}</li>
         <li> email: ${email}</li>
