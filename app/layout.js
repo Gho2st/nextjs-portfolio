@@ -9,7 +9,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://domiweb.pl"),
+  metadataBase: new URL("https://www.domiweb.pl"),
   title: {
     default: "Domiweb - Strony Internetowe Nowy Sącz",
     template: "%s - Domiweb - Strony Internetowe Nowy Sącz",
