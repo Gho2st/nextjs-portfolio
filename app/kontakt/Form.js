@@ -68,8 +68,7 @@ export default function Form() {
 
           <p className={classes.text}>
             Potrzebujesz strony internetowej? aplikacji? pomocy IT? - po prostu
-            podaj więcej szczegółów i pomysłów. A ja przyjdę z pomocą do
-            Ciebie.
+            podaj więcej szczegółów i pomysłów. A ja przyjdę z pomocą do Ciebie.
           </p>
 
           <form onSubmit={sendMail} className={classes.form}>
@@ -141,13 +140,13 @@ export default function Form() {
         </div>
       ) : (
         <div>
-          {" "}
           <h3 className={classes.header3}>
             Dziękuję za przesłanie formularza!
           </h3>
           <p className={classes.text}>
-            <span>{fullName}</span> - Oto kwiatki dla Ciebie w zamian za wiadomość -
-            wirtualnie, ale z sercem! Postaram się odpowiedzieć tak szybko, jak to możliwe, aby kwiatki nie zwiędły. 
+            <span>{fullName}</span> - Oto kwiatki dla Ciebie w zamian za
+            wiadomość - wirtualnie, ale z sercem! Postaram się odpowiedzieć tak
+            szybko, jak to możliwe, aby kwiatki nie zwiędły.
           </p>
           <Image
             src={"/dziekuje.png"}

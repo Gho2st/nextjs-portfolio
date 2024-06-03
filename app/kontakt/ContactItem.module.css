@@ -36,11 +36,8 @@
   font-weight: 300;
 }
 
-
-
-
 @media (max-width: 767px) {
-  .container{
+  .container {
     justify-content: center;
     flex-direction: column;
     margin-top: 1rem;
@@ -48,10 +45,10 @@
   .textColor {
     text-align: center;
   }
-  .header{
+  .header {
     text-align: center;
   }
-  .icon{
+  .icon {
     margin-right: 0;
   }
 }

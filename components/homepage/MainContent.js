@@ -8,7 +8,7 @@ import Animation from "../threejs/Animation";
 export default function MainContent() {
   return (
     <>
-      <div>
+      <div className={classes.animation}>
         <Animation />
       </div>
 
