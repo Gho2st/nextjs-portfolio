@@ -62,7 +62,7 @@
   left: 0;
   z-index: 1500;
   opacity: 0;
-  transition: all ease-in 0.2s;
+  transition: all 0.4s cubic-bezier(1, -0.11, 0.83, 0.67);
 }
 
 .navigation__list {
