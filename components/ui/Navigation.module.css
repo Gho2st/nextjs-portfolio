@@ -177,3 +177,15 @@
   top: 0;
   transform: rotate(-135deg);
 }
+
+@media (max-width: 1200px) {
+  .navigation__link {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navigation__link {
+    font-size: 1.3rem;
+  }
+}
