@@ -23,6 +23,12 @@ export default function Portfolio() {
           text="Strona internetowa wykonana w całości z uzyciem Bootstrapa."
         />
         <PortfolioItem
+          source="/hukimuki.png"
+          href="https://hukimuki-s.vercel.app"
+          title="Huki Muki"
+          text="Projekt w NextJS dla krakowskiego pubu. Integracja płatności stripe, postgres, system rezerwacji"
+        />
+        <PortfolioItem
           source="/beata3.png"
           href="https://beatalakota.pl/"
           title="Beata Łakota"
@@ -44,7 +50,7 @@ export default function Portfolio() {
           source="/dominik.png"
           href="https://dominikjojczyk.pl/"
           title="Dominik Jojczyk - portfolio"
-          text="Mój projekt portfolio napisany całkowicie od zera w HTMl, CSS, JS."
+          text="Mój projekt portfolio - więcej informacji o mnie..."
         />
         <PortfolioItem
           source="/olmart.png"

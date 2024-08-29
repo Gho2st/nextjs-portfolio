@@ -15,15 +15,15 @@ export default function Price() {
         />
         <PriceItem
           header="Ile kosztuje utrzymanie witryny internetowej?"
-          text="Ceny hostingu + certyfikat SSL to ok. 120-150zł rocznie, domeny 50zł rocznie."
+          text="Ceny hostingu + certyfikat SSL to ok. 120-150zł rocznie, domeny 70zł rocznie."
         />
         <PriceItem
           header="Ile trzeba czekać na odpowiedź?"
           text="W większości przypadków odpowiadam od razu, maksymalnie do paru godzin."
         />
         <PriceItem
-          header="Czy strona będzie wyświetlać się uzytkownikom?"
-          text="Tak, dbam o pozycjonowanie i indeksowanie witryny aby plasowała się na samej górze wyszukiwarki. Dodaje witrynę do GSC i analizuje dane kazdego dnia."
+          header="Czy strona będzie wyświetlać się użytkownikom?"
+          text="Tak, dbam o pozycjonowanie i indeksowanie witryny aby plasowała się na samej górze wyszukiwarki. Dodaje witrynę do GSC i analizuje dane każdego dnia."
         />
       </div>
     </>

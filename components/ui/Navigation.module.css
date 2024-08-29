@@ -30,8 +30,8 @@
 }
 
 .navigation__background {
-  height: 3rem;
-  width: 3rem;
+  height: 1.5rem;
+  width: 1.5rem;
   border-radius: 50%;
   position: fixed;
   top: 1.5rem;
@@ -49,8 +49,8 @@
 
 .navigation__button {
   background-color: rgb(236, 225, 225);
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   position: fixed;
   top: 1.5rem;
   right: 1.5rem;
@@ -89,7 +89,7 @@
 
 .navigation__link {
   display: inline-block;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 1rem 2rem;
   font-weight: 400;
   text-decoration: none;
@@ -118,7 +118,7 @@
 /* FUNCTIONALITY*/
 
 .navigation__checkbox:checked ~ .navigation__background {
-  transform: scale(80);
+  transform: scale(180);
 }
 
 .navigation__checkbox:checked ~ .navigation__nav {
@@ -129,18 +129,18 @@
 
 /* Icon */
 .navigation__icon {
-  width: 1.5rem;
+  width: 1.3rem;
   height: 2px;
   background-color: black;
   display: inline-block;
-  margin-top: 1.8rem;
+  margin-top: 1.3rem;
   position: relative;
 }
 
 .navigation__icon::before,
 .navigation__icon::after {
   content: "";
-  width: 1.5rem;
+  width: 1.3rem;
   height: 2px;
   background-color: black;
   position: absolute;
@@ -157,11 +157,11 @@
 }
 
 .navigation__button:hover .navigation__icon:before {
-  top: -0.65rem;
+  top: -0.6rem;
 }
 
 .navigation__button:hover .navigation__icon::after {
-  top: 0.65rem;
+  top: 0.6rem;
 }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon {
@@ -176,45 +176,4 @@
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg);
-}
-
-@media (max-width: 800px) {
-  .navigation__background {
-    height: 2.5rem;
-    width: 2.5rem;
-  }
-
-  .navigation__button {
-    height: 2.9rem;
-    width: 2.9rem;
-  }
-
-  .navigation__icon::before {
-    top: -0.4rem;
-  }
-
-  .navigation__icon::after {
-    top: 0.4rem;
-  }
-
-  .navigation__button:hover .navigation__icon:before {
-    top: -0.5rem;
-  }
-
-  .navigation__button:hover .navigation__icon::after {
-    top: 0.5rem;
-  }
-
-  .navigation__icon {
-    margin-top: 1.5rem;
-  }
-
-  .navigation__link {
-    font-size: 1.4rem;
-    padding: 1rem 1.5rem;
-  }
-
-  .navigation__link span {
-    margin-right: 0.6rem;
-  }
 }
