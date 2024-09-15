@@ -47,7 +47,7 @@
 .button:hover {
   color: #8be5e3;
 }
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .item {
     width: 100%;
     margin: 1rem 0rem;
