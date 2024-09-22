@@ -24,7 +24,7 @@ export default function Portfolio() {
         />
         <PortfolioItem
           source="/hukimuki.png"
-          href="https://hukimuki-s.vercel.app"
+          href="https://hukimuki.pl"
           title="Huki Muki"
           text="Projekt w NextJS dla krakowskiego pubu. Integracja płatności stripe, postgres, system rezerwacji"
         />
