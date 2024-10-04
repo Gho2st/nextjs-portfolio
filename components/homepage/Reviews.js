@@ -48,7 +48,7 @@ export default function Reviews() {
     <>
       <div className={classes.container}>
         <p className={classes.upText}>Google</p>
-        <h3 className={classes.header}>Opinie z profilu firmowego.</h3>
+        <h2 className={classes.header}>Opinie z profilu firmowego.</h2>
         <p className={classes.text}>
           Podziel się swoją opinią, aby pomóc innym użytkownikom! Twoja opinia
           to wirtualny drogowskaz dla innych.

@@ -13,9 +13,9 @@ export default function PriceItem(props) {
   return (
     <div className={classes.container} onClick={clickHandler}>
       <div className={classes.innerContainer}>
-        <h6 className={classes.header} >
+        <h4 className={classes.header} >
           {props.header}
-        </h6>
+        </h4>
         <div className={classes.icon}>
           <FaMinus />
         </div>

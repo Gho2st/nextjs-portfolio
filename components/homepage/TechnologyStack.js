@@ -41,7 +41,7 @@ export default function TechnologyStack() {
 
   return (
     <>
-      <h4 className={classes.header}>Stack Technologiczny</h4>
+      <h2 className={classes.header}>Stack Technologiczny</h2>
       <div className={classes.itemsContainer}>
         {technologiesData.map((tech) => (
           <TechnologyItem
@@ -57,7 +57,7 @@ export default function TechnologyStack() {
       </div>
       {activeTechnology && (
         <div>
-          <h5 className={classes.header5}>{activeTechnology}</h5>
+          <h3 className={classes.header5}>{activeTechnology}</h3>
           <p className={classes.text}>
             {
               technologiesData.find((tech) => tech.name === activeTechnology)

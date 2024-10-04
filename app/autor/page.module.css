@@ -58,7 +58,7 @@
     width: 65%;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   .innerContainer {
     flex-direction: column;
   }
@@ -74,5 +74,19 @@
   }
   .info {
     width: 100%;
+    padding: 2rem 9%;
+  }
+  .imageContainer {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .imageContainer {
+    width: 80%;
+  }
+  .info h2{
+    margin-top: 0;
   }
 }

@@ -7,7 +7,7 @@ export default function Together() {
     <>
       <div className={classes.container}>
         <p className={classes.text}>Popracujmy razem</p>
-        <h4 className={classes.header}>Potrzebujesz ciekawy projekt?</h4>
+        <h2 className={classes.header}>Potrzebujesz ciekawy projekt?</h2>
         <div className={classes.buttonContainer}>
           <Link href="/kontakt">
             <button className={classes.button}>Porozmawiajmy</button>

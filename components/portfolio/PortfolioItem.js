@@ -18,7 +18,7 @@ export default function PortfolioItem(props) {
             />
           </div>
           <div className={classes.textContainer}>
-            <h5 className={classes.header}>{props.title}</h5>
+            <h3 className={classes.header}>{props.title}</h3>
             <p className={classes.text}>{props.text}</p>
           </div>
         </div>

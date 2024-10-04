@@ -7,7 +7,7 @@ export default function Portfolio() {
       <div className={classes.container}>
         <div>
           <p className={classes.text}>Zobacz, co udało mi się stworzyć!</p>
-          <h3 className={classes.header}>Przykładowe realizacje</h3>
+          <h2 className={classes.header}>Przykładowe realizacje</h2>
         </div>
         {/* <div className={classes.switch}>
           <p>All works</p>
