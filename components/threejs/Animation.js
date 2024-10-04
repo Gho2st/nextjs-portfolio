@@ -1,33 +1,37 @@
+"use client";
+import React, { useMemo, useRef, useEffect, Suspense } from "react";
 import * as THREE from "three";
-import { useMemo, useRef, useEffect } from "react";
-import { Canvas, useFrame, useThree } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { Trail, Float, Line, Sphere } from "@react-three/drei";
 import classes from "./Animations.module.css";
 
 export default function Animation() {
   return (
     <div className={classes.animation}>
+      {/* Suspense to lazy load for performance */}
       <Canvas camera={{ position: [0, 0, 5] }}>
-        <Float speed={4} rotationIntensity={1} floatIntensity={2}>
-          <Atom />
-        </Float>
+        <Suspense fallback={null}>
+          <Float speed={2} rotationIntensity={0.5} floatIntensity={1.5}>
+            <Atom />
+          </Float>
+        </Suspense>
       </Canvas>
     </div>
   );
 }
 
-function Atom( props ) {
-  
-
+function Atom(props) {
+  // Reduced number of points for performance
   const points = useMemo(
     () =>
       new THREE.EllipseCurve(0, 0, 3, 1.15, 0, 2 * Math.PI, false, 0).getPoints(
-        100
+        50 // Reduced from 100 to 50 points
       ),
     []
   );
   return (
     <group {...props}>
+      {/* 3 orbiting lines with optimized performance */}
       <Line worldUnits points={points} color="turquoise" lineWidth={0.3} />
       <Line
         worldUnits
@@ -43,6 +47,7 @@ function Atom( props ) {
         lineWidth={0.3}
         rotation={[0, 0, -1]}
       />
+      {/* Three electrons with different speeds and optimized animation */}
       <Electron position={[0, 0, 0.5]} speed={3} />
       <Electron
         position={[0, 0, 0.5]}
@@ -54,7 +59,10 @@ function Atom( props ) {
         rotation={[0, 0, -Math.PI / 3]}
         speed={7}
       />
-      <Sphere args={[0.55, 64, 64]}>
+      {/* Optimized Sphere with fewer segments */}
+      <Sphere args={[0.55, 32, 32]}>
+        {" "}
+        {/* Reduced from 64 to 32 segments */}
         <meshBasicMaterial color={[6, 0.5, 2]} toneMapped={false} />
       </Sphere>
     </group>

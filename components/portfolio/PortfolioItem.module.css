@@ -1,12 +1,11 @@
 .item {
   border-radius: 2rem;
-  width: 30%;
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: background 0.3s ease;
   cursor: pointer;
   overflow: hidden;
   margin-bottom: 1.2rem;
-  margin: 1rem;
   background-color: #323232;
 }
 .item:hover {
@@ -40,9 +39,6 @@
   margin-top: 1rem;
 }
 
-@media (max-width: 967px) {
-  .item {
-    width: 80%;
-    margin-top: 2rem;
-  }
+.textContainer p {
+  line-height: 1.5rem;
 }

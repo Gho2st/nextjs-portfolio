@@ -10,8 +10,10 @@ import { Metadata } from "next";
 
 export const metadata = {
   title: "Kontakt",
+  description:
+    "Skontaktuj się z nami, aby uzyskać więcej informacji na temat naszych usług tworzenia stron internetowych i pozycjonowania SEO. Jesteśmy tutaj, aby pomóc!",
   alternates: {
-    canonical: "/kontakt",
+    canonical: "https://www.domiweb.pl/kontakt",
   },
 };
 

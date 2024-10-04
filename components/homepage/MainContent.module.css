@@ -1,42 +1,36 @@
-.animation{
-  margin-top: 6rem;
+.wrapper {
+  padding: 4rem 9%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.container{
+
+.imageContainer {
+  padding-top: 3rem;
+  width: 25%;
+  margin: auto;
+}
+.container {
   margin-top: 1rem;
-}
-.header {
-  font-size: 6rem;
-  font-weight: 500;
-  text-align: center;
-  letter-spacing: 0.2rem;
-  word-spacing: 0.5rem;
-  color: transparent;
-  background: linear-gradient(45deg, #f9fafa, #8be5e3);
-  background-clip: text;
-  -webkit-background-clip: text;
-  animation: shimmer 1s infinite linear;
-}
-@keyframes shimmer {
-  0% {
-    background-position: 200% 0;
-  }
-  100% {
-    background-position: -200% 0;
-  }
 }
 
 .textContainer {
-  margin-top: 1.5rem;
-  display: flex;
-  justify-content: center;
-}
-
-.text {
-  text-align: center;
   color: #ebebeb;
   font-weight: 300;
-  max-width: 45%;
-  font-size: 1.2rem;
+  max-width: 50%;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: auto;
+}
+
+.textContainer h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.textContainer p {
+  color: rgb(169, 169, 169);
 }
 
 .buttonContainer {
@@ -46,15 +40,16 @@
 }
 
 .button {
-  padding: 0.9rem;
+  margin-top: 1rem;
+  padding: 1rem;
   border: 0;
   border-radius: 0.8rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background-color: #8be5e3;
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.3s ease;
-  box-shadow: 0 0 1rem #8be5e3;
+  box-shadow: 0 0 0.7rem #8be5e3;
   z-index: 2;
 }
 .button a {
@@ -64,16 +59,49 @@
   transform: scale(1.1);
 }
 
+@media (max-width: 1400px) {
+  .imageContainer {
+    width: 30%;
+  }
+  .textContainer {
+    max-width: 65%;
+  }
+}
 
-@media (max-width: 767px) {
-  .container {
-    margin-top: 1.5rem;
+@media (max-width: 1200px) {
+  .textContainer h1 {
+    font-size: 1.3rem;
   }
-  .header {
-    font-size: 4rem;
+  .textContainer p {
+    font-size: 1rem;
   }
-  .text {
+  .imageContainer {
+    width: 35%;
+  }
+  .textContainer {
     max-width: 85%;
-    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .imageContainer {
+    width: 45%;
+  }
+  .textContainer {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .imageContainer {
+    width: 80%;
+    padding-top: 3rem;
+  }
+
+  .textContainer p {
+    font-size: 0.9rem;
+  }
+  .textContainer {
+    max-width: 100%;
   }
 }

@@ -10,18 +10,26 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://domiweb.pl"),
+  metadataBase: new URL("https://wwwdomiweb.pl"),
   title: {
-    default: "Domiweb - Strony Internetowe Nowy Sącz",
-    template: "%s - Domiweb - Strony Internetowe Nowy Sącz",
+    default: "Domiweb - Pozycjonowanie, Audyt i Tworzenie Stron Internetowych",
   },
   description:
     "W poszukiwaniu responsywnej strony internetowej? Zapraszamy do skorzystania z naszej oferty - tania i zoptymalizowana pod kątem pozycjonowania witryna jest już dla Ciebie dostępna!",
   alternates: {
-    canonical: "/",
+    canonical: "https://www.domiweb.pl/",
   },
   openGraph: {
+    type: "website",
+    url: "https://www.domiweb.pl/",
+    title: "Domiweb - Strony Internetowe",
+    description:
+      "W poszukiwaniu responsywnej strony internetowej? Zapraszamy do skorzystania z naszej oferty - tania i zoptymalizowana pod kątem pozycjonowania witryna jest już dla Ciebie dostępna!",
     images: "/opengraph-image.png",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

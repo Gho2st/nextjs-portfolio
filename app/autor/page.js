@@ -4,9 +4,11 @@ import Footer from "@/components/ui/Footer";
 import Socials from "@/components/ui/Socials";
 
 export const metadata = {
-  title: "Autor",
+  title: "Autor - Domiweb",
+  description:
+    "Poznaj autora strony Domiweb, specjalizującego się w tworzeniu i optymalizacji stron internetowych oraz pozycjonowaniu SEO.",
   alternates: {
-    canonical: "/autor",
+    canonical: "https://www.domiweb.pl/autor",
   },
 };
 

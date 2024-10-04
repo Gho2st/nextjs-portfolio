@@ -11,6 +11,6 @@ export default function robots(){
                 disallow: ["/admin", "privacy"]
             }
         ],
-        sitemap: `https://domiweb.pl/sitemap.xml`
+        sitemap: `https://www.domiweb.pl/sitemap.xml`
     }
 }

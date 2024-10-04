@@ -1,22 +1,22 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://domiweb.pl',
+      url: "https://www.domiweb.pl",
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: 'https://domiweb.pl/kontakt',
+      url: "https://www.domiweb.pl/kontakt",
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: 'https://domiweb.pl/autor',
+      url: "https://www.domiweb.pl/autor",
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: "weekly",
       priority: 0.5,
     },
-  ]
+  ];
 }
