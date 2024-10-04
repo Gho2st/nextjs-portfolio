@@ -9,7 +9,8 @@ import Socials from "@/components/ui/Socials";
 import { Metadata } from "next";
 
 export const metadata = {
-  title: "Kontakt",
+  title:
+    "Skontaktuj się z ekspertami w tworzeniu stron internetowych i SEO | Domiweb",
   description:
     "Skontaktuj się z nami, aby uzyskać więcej informacji na temat naszych usług tworzenia stron internetowych i pozycjonowania SEO. Jesteśmy tutaj, aby pomóc!",
   alternates: {
