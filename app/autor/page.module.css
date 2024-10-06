@@ -49,13 +49,19 @@
   font-size: 1rem;
   cursor: pointer;
 }
-@media (max-width: 1447px) {
+@media (max-width: 1500px) {
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
   .container {
     width: 80%;
     margin-top: 1rem;
   }
   .info {
-    width: 65%;
+    width: 80%;
   }
 }
 @media (max-width: 900px) {
@@ -86,7 +92,7 @@
   .imageContainer {
     width: 80%;
   }
-  .info h2{
+  .info h2 {
     margin-top: 0;
   }
 }

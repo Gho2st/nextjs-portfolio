@@ -68,10 +68,17 @@
   width: 30%;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
   .text {
     font-size: 0.95rem;
     width: 60%;
+    margin-top: 1rem;
+  }
+
+  .contentContainer {
+    margin-top: 2rem;
+  }
+  .linksContainer {
     margin-top: 1rem;
   }
 }
