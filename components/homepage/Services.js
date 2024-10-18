@@ -7,27 +7,28 @@ import { CiMobile1 } from "react-icons/ci";
 export default function Services() {
   return (
     <>
-      
-      <div className={classes.itemContainer}>
-        <ServiceItem
-          title="Strony internetowe"
-          icon={<IoCodeSlash />}
-          background="green"
-          description="Oferuję strony internetowe, które zamierzam rozwijać wspólnie od pierwszego kontaktu do samego końca. Każda witryna powinna mieć w sobie coś wyróżniającego."
-        />
-        <ServiceItem
-          title="Pozycjonowanie"
-          icon={<IoLogoWebComponent />}
-          background="red"
-          description="Moim celem jest stworzenie strony internetowej na pierwszym miejscu w rankingu wyszukiwarek. Przedewszystkim daje wsparcie klientowi jak to uzyskać i przebić się na podium."
-        />
-        <ServiceItem
-          title="Wsparcie"
-          icon={<CiMobile1 />}
-          background="blue"
-          description="Bez względu na to, czy jesteś moim klientem, znajomym czy po prostu masz pytanie, mozesz liczyć na moją empatię i zaangażowanie w to co chcesz osiągnąć."
-        />
-      </div>
+      <section>
+        <div className={classes.itemContainer}>
+          <ServiceItem
+            title="Tworzenie Nowoczesnych Stron Internetowych"
+            icon={<IoCodeSlash />}
+            background="green"
+            description="Oferujemy nowoczesne strony internetowe, które rozwijamy wspólnie z klientami od pierwszego kontaktu aż do wdrożenia. Każda nasza strona jest unikalna, stworzona tak, by wyróżniać się w sieci i spełniać oczekiwania zarówno użytkowników, jak i wyszukiwarek."
+          />
+          <ServiceItem
+            title="Pozycjonowanie Stron Internetowych (SEO) – Skuteczna Optymalizacja i Wzrost Widoczności"
+            icon={<IoLogoWebComponent />}
+            background="red"
+            description="Naszym celem jest, aby Twoja strona zajmowała czołowe miejsca w wynikach wyszukiwania. Oferujemy pełne wsparcie w zakresie SEO, pomagając Ci osiągnąć sukces i wyprzedzić konkurencję w Google. Dzięki naszym działaniom Twoja strona nie tylko będzie widoczna, ale także zyska większy ruch i lepsze wyniki biznesowe."
+          />
+          <ServiceItem
+            title="Wsparcie Techniczne Stron Internetowych i Aktualizacje"
+            icon={<CiMobile1 />}
+            background="blue"
+            description="Zapewniamy wsparcie techniczne na każdym etapie działania Twojej strony. Niezależnie od tego, czy jesteś naszym klientem, czy dopiero zaczynasz przygodę z naszą firmą, możesz liczyć na naszą pomoc i zaangażowanie. Oferujemy aktualizacje, zabezpieczenia i konserwację stron, dbając o to, by Twoja witryna była zawsze w doskonałej formie."
+          />
+        </div>
+      </section>
     </>
   );
 }

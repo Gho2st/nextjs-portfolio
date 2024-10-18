@@ -44,7 +44,7 @@
   padding: 1rem;
   border: 0;
   border-radius: 0.8rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   background-color: #8be5e3;
   font-weight: bold;
   cursor: pointer;
@@ -104,5 +104,8 @@
   }
   .textContainer {
     max-width: 100%;
+  }
+  .button {
+    font-size: 1.1rem;
   }
 }

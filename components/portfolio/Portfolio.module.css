@@ -11,6 +11,7 @@
 
 .header {
   font-size: 1.8rem;
+  margin-top: 0.5rem;
   color: white;
 }
 .itemContainer {
@@ -32,5 +33,11 @@
   }
   .text {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    font-size: 1.3rem;
   }
 }

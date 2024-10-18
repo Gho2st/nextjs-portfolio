@@ -9,11 +9,11 @@ export default function Reviews() {
   const carouselSettings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3500,
     cssEase: "linear",
     initialSlide: 0,
     responsive: [
@@ -46,52 +46,56 @@ export default function Reviews() {
 
   return (
     <>
-      <div className={classes.container}>
-        <p className={classes.upText}>Google</p>
-        <h2 className={classes.header}>Opinie z profilu firmowego.</h2>
-        <p className={classes.text}>
-          Podziel się swoją opinią, aby pomóc innym użytkownikom! Twoja opinia
-          to wirtualny drogowskaz dla innych.
-        </p>
-        <div className={classes.buttonContainer}>
-          <a
-            className={classes.button}
-            href="https://g.page/r/CT8XYmYaAmICEBM/review"
-          >
-            Zostaw Opinię!
-          </a>
+      <section>
+        <div className={classes.container}>
+          <p className={classes.upText}>Google</p>
+          <h2 className={classes.header}>
+            Opinie Klientów o Naszych Usługach Tworzenia Stron i SEO
+          </h2>
+          <p className={classes.text}>
+            Podziel się swoją opinią, aby pomóc innym użytkownikom! Twoja opinia
+            to wirtualny drogowskaz dla innych.
+          </p>
+          <div className={classes.buttonContainer}>
+            <a
+              className={classes.button}
+              href="https://g.page/r/CT8XYmYaAmICEBM/review"
+            >
+              Zostaw Opinię!
+            </a>
+          </div>
         </div>
-      </div>
-      <Slider {...carouselSettings} className={classes.slider}>
-        <ReviewsCard
-          text="Dzięki stronie internetowej moimi usługami zainteresowało się wiele nowych klientów.
+        <Slider {...carouselSettings} className={classes.slider}>
+          <ReviewsCard
+            text="Dzięki stronie internetowej moimi usługami zainteresowało się wiele nowych klientów.
                 Strona jest przejrzysta i prosta w obsłudze a na tym najbardziej mi zależało.
                 Polecam!"
-          autor="Jakub Oleś"
-        />
-        <ReviewsCard
-          text="Pierwszorzędnie wykonane usługi. Pełen profesjonalizm"
-          autor="Jan Podwyszyński"
-        />
-        <ReviewsCard
-          text="Profesjonalna pomoc w doborze hostingu, domeny i administracji strony w zakresie usługi.
+            autor="Jakub Oleś"
+          />
+          <ReviewsCard
+            text="Pierwszorzędnie wykonane usługi. Pełen profesjonalizm"
+            autor="Jan Podwyszyński"
+          />
+          <ReviewsCard
+            text="Profesjonalna pomoc w doborze hostingu, domeny i administracji strony w zakresie usługi.
                 Konkurecyjne wyceny! Pomoc w zakresie social media w cenie. Dziekuje."
-          autor="Julia Płachecka"
-        />
-        <ReviewsCard
-          text="Bardzo polecam, rzetelnie i profesjonalnie wykonana usługa, napewno wrócę w przyszłości."
-          autor="Eryk Szkred"
-        />
-        <ReviewsCard
-          autor="Milena Głowacka"
-          text="Jestem bardzo zadowolona z całokształtu wykonanego projektu.
+            autor="Julia Płachecka"
+          />
+          <ReviewsCard
+            text="Bardzo polecam, rzetelnie i profesjonalnie wykonana usługa, napewno wrócę w przyszłości."
+            autor="Eryk Szkred"
+          />
+          <ReviewsCard
+            autor="Milena Głowacka"
+            text="Jestem bardzo zadowolona z całokształtu wykonanego projektu.
                 Pan Dominik jest miłą osobą z poczuciem humoru, widać że ma wiedzę niezbędną do wykonywania swojej pracy :)"
-        />
-        <ReviewsCard
-          text="Polecam, profesjonalna obsługa, strona przemyślana i miła dla oka:)"
-          autor="Dominik Cebula"
-        />
-      </Slider>
+          />
+          <ReviewsCard
+            text="Polecam, profesjonalna obsługa, strona przemyślana i miła dla oka:)"
+            autor="Dominik Cebula"
+          />
+        </Slider>
+      </section>
     </>
   );
 }

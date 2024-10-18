@@ -1,6 +1,5 @@
 .container {
-  margin-top: 10rem;
-  margin-left: 5.2rem;
+  padding: 4rem 9%;
 }
 
 .upText {
@@ -10,7 +9,7 @@
 }
 
 .header {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0.5rem 0;
   font-weight: 400;
   color: white;
@@ -39,7 +38,6 @@
 
 @media (max-width: 767px) {
   .container {
-    margin-top: 4rem;
     margin-bottom: 3rem;
     margin-left: 0rem;
     padding: 0 2rem;
@@ -49,7 +47,10 @@
     display: flex;
     justify-content: center;
   }
+  .header {
+    font-size: 1.3rem;
+  }
   .slider {
-    width: 80%;
+    width: 100%;
   }
 }

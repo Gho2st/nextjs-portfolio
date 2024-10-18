@@ -1,3 +1,21 @@
-.container{
-    margin-top: 4rem;
+.container {
+  padding: 4rem 9%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 600px) {
+  .container h2 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
 }

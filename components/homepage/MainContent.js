@@ -9,36 +9,41 @@ import Image from "next/image";
 export default function MainContent() {
   return (
     <>
-      <div className={classes.wrapper}>
-        <div className={classes.imageContainer}>
-          <Image
-            src="/atom.svg"
-            width={100}
-            height={100}
-            layout="responsive"
-            alt="Grafika przedstawiająca logo firmy Domiweb w kształcie niebieskiego atomu"
-          />
-        </div>
+      <section>
+        <div className={classes.wrapper}>
+          <div className={classes.imageContainer}>
+            <Image
+              src="/atom.svg"
+              width={100}
+              height={100}
+              layout="responsive"
+              alt="Grafika przedstawiająca logo firmy Domiweb w formie niebieskiego atomu, symbolizująca nowoczesność, technologię i zaawansowane rozwiązania w tworzeniu stron internetowych."
+            />
+          </div>
 
-        <div className={classes.container}>
-          <div className={classes.textContainer}>
-            <h1>
-              <span>Domiweb</span> to Twoje miejsce na profesjonalną stronę
-              internetową z pełnym pozycjonowaniem SEO oraz opieką techniczną.
-            </h1>
-            <p>
-              Z nami nie musisz martwić się o szczegóły techniczne – tworzymy,
-              optymalizujemy i zajmujemy się stroną na każdym etapie. Strony
-              internetowe, które przyciągają klientów, są teraz w Twoim zasięgu!
-            </p>
-          </div>
-          <div className={classes.buttonContainer}>
-            <button className={classes.button}>
-              <Link href="/kontakt">Zacznijmy!</Link>
-            </button>
+          <div className={classes.container}>
+            <div className={classes.textContainer}>
+              <h1>
+                Tworzenie Profesjonalnych Stron Internetowych z Pozycjonowaniem
+                SEO – <span>Domiweb</span>
+              </h1>
+              <p>
+                Z Domiweb nie musisz martwić się o techniczne szczegóły.
+                Tworzymy i optymalizujemy strony internetowe na każdym etapie,
+                dbając o to, by Twoja witryna przyciągała klientów i była
+                widoczna w wyszukiwarkach. Nasze strony internetowe są
+                dopasowane do Twoich potrzeb i mają jeden cel: przynieść sukces
+                Twojej firmie online.
+              </p>
+            </div>
+            <div className={classes.buttonContainer}>
+              <button className={classes.button}>
+                <Link href="/kontakt">Zacznij już teraz!</Link>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

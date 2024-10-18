@@ -12,14 +12,16 @@ import Audit from "@/components/homepage/Audit";
 export default function Home() {
   return (
     <>
-      <MainContent />
-      <Services />
-      <Audit />
-      <Portfolio />
-      <Price />
-      <TechnologyStack />
-      <Reviews />
-      <Together />
+      <main>
+        <MainContent />
+        <Services />
+        <Audit />
+        <Portfolio />
+        <Price />
+        <TechnologyStack />
+        <Reviews />
+        <Together />
+      </main>
       <Footer />
     </>
   );

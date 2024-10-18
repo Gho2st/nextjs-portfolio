@@ -1,6 +1,10 @@
+.container {
+  padding: 4rem 9%;
+}
+
 .header {
-  margin-top: 5rem;
-  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   color: #ff7642;
 }
@@ -27,8 +31,7 @@
   text-align: center;
   color: white;
   font-size: 1.1rem;
-  width: 50%;
-  margin-bottom: 5rem;
+  width: 70%;
 }
 
 @media (max-width: 767px) {
@@ -37,9 +40,9 @@
     font-size: 0.9rem;
   }
   .header {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
-  .header5{
-    font-size: 1.6rem;
+  .header5 {
+    font-size: 1.3rem;
   }
 }

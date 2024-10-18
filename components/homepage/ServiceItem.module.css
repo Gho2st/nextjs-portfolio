@@ -4,11 +4,11 @@
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: background 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
-  background-color: #323232
+  background-color: #323232;
 }
 .item:hover {
   background-color: rgb(36, 32, 32);
-  transform: scale(1.1);
+  transform: scale(1.05);
   opacity: 0.9;
 }
 .icon {
@@ -25,7 +25,7 @@
   font-size: 3.5rem;
 }
 .title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 1.3rem 0;
   color: white;
 }
@@ -47,6 +47,13 @@
 .button:hover {
   color: #8be5e3;
 }
+
+@media (max-width: 1500px) {
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .item {
     width: 100%;
@@ -61,9 +68,12 @@
     color: #ebebeb;
     font-weight: 300;
   }
-  .title {
-    font-size: 1.35rem;
-    margin: 1.2rem 0;
-    color: white;
+}
+
+@media (max-width: 600px) {
+  .item:hover {
+    transform: scale(1);
+    opacity: 1;
+    background-color: #323232;
   }
 }

@@ -1,6 +1,5 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/ui/Header";
 import { Analytics } from "@vercel/analytics/react";
 import Navigation from "@/components/ui/Navigation";
 
@@ -37,7 +36,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pl">
       <body className={montserrat.className}>
-        {/* <Header /> */}
         <Navigation />
         {children}
         <Analytics />

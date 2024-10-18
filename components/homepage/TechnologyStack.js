@@ -41,31 +41,35 @@ export default function TechnologyStack() {
 
   return (
     <>
-      <h2 className={classes.header}>Stack Technologiczny</h2>
-      <div className={classes.itemsContainer}>
-        {technologiesData.map((tech) => (
-          <TechnologyItem
-            key={tech.name}
-            style={
-              activeTechnology === tech.name ? { background: "red" } : {}
-            }
-            icon={tech.icon}
-            onClick={() => handleItemClick(tech.name)}
-            isActive = {activeTechnology}
-          />
-        ))}
-      </div>
-      {activeTechnology && (
-        <div>
-          <h3 className={classes.header5}>{activeTechnology}</h3>
-          <p className={classes.text}>
-            {
-              technologiesData.find((tech) => tech.name === activeTechnology)
-                .text
-            }
-          </p>
+      <section className={classes.container}>
+        <h2 className={classes.header}>
+          Technologie, Które Używamy w Tworzeniu Stron Internetowych
+        </h2>
+        <div className={classes.itemsContainer}>
+          {technologiesData.map((tech) => (
+            <TechnologyItem
+              key={tech.name}
+              style={
+                activeTechnology === tech.name ? { background: "red" } : {}
+              }
+              icon={tech.icon}
+              onClick={() => handleItemClick(tech.name)}
+              isActive={activeTechnology}
+            />
+          ))}
         </div>
-      )}
+        {activeTechnology && (
+          <div>
+            <h3 className={classes.header5}>{activeTechnology}</h3>
+            <p className={classes.text}>
+              {
+                technologiesData.find((tech) => tech.name === activeTechnology)
+                  .text
+              }
+            </p>
+          </div>
+        )}
+      </section>
     </>
   );
 }

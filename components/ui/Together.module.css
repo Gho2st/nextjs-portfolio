@@ -1,5 +1,6 @@
 .container {
-  margin: 5rem 0;
+  padding: 4rem 9%;
+  margin-top: 3rem;
 }
 
 .text {
@@ -10,7 +11,7 @@
 }
 .header {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 500;
   color: white;
 }
@@ -36,6 +37,6 @@
 
 @media (max-width: 767px) {
   .header {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }
