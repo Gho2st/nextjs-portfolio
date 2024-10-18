@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function Reviews() {
   const carouselSettings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 800,
     slidesToShow: 3,

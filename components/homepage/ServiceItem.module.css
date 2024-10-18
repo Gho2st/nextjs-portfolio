@@ -8,7 +8,7 @@
 }
 .item:hover {
   background-color: rgb(36, 32, 32);
-  transform: scale(1.05);
+  transform: scale(1.01);
   opacity: 0.9;
 }
 .icon {
