@@ -40,7 +40,7 @@ export default function Form() {
       });
 
       if (response.ok) {
-        console.log("Form submitted succesfully");
+        // console.log("Form submitted succesfully");
         setFormSubmitted(true);
         setFormError(null);
         setEmail("");
@@ -76,7 +76,7 @@ export default function Form() {
             <input
               type="text"
               id="fullName"
-              placeholder="Podaj swoje imie"
+              placeholder="Podaj Swoje Imię"
               value={fullName}
               onChange={(e) => {
                 setFullName(e.target.value);
@@ -93,7 +93,7 @@ export default function Form() {
               type="email"
               id="email"
               name="email"
-              placeholder="Podaj swoj email"
+              placeholder="Podaj Swój Email"
               value={email}
               onChange={(e) => {
                 setEmail(e.target.value);
@@ -102,12 +102,12 @@ export default function Form() {
                 border: errorFields.includes("email") ? "1px solid red" : "0",
               }}
             />
-            <label htmlFor="services">Jakiej uslugi potrzebujesz?</label>
+            <label htmlFor="services">Jakiej usługi potrzebujesz?</label>
             <input
               type="text"
               id="services"
               name="services"
-              placeholder="Podaj jakiej uslugi potrzebujesz"
+              placeholder="Podaj jakiej usługi potrzebujesz"
               value={services}
               onChange={(e) => {
                 setServices(e.target.value);
@@ -118,11 +118,11 @@ export default function Form() {
                   : "0",
               }}
             />
-            <label htmlFor="text">Twoja Wiadomosc:</label>
+            <label htmlFor="text">Twoja Wiadomość:</label>
             <textarea
               id="text"
               name="text"
-              placeholder="Napisz swoja wiadomosc"
+              placeholder="Napisz Swoją wiadomość"
               value={text}
               onChange={(e) => {
                 setText(e.target.value);

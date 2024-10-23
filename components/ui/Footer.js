@@ -25,6 +25,13 @@ export default function Footer() {
             <Link href="https://dominikjojczyk.pl/"> Dominik</Link> &copy;{" "}
             {currentYear}
           </p>
+          <a
+            className={classes.policy}
+            href="/polityka_prywatnosci_domiweb.pdf"
+            target="_blank"
+          >
+            Polityka Prywatności
+          </a>
         </div>
       </footer>
     </>

@@ -60,7 +60,7 @@ export default function TechnologyStack() {
         </div>
         {activeTechnology && (
           <div>
-            <h3 className={classes.header5}>{activeTechnology}</h3>
+            <h3 className={classes.header3}>{activeTechnology}</h3>
             <p className={classes.text}>
               {
                 technologiesData.find((tech) => tech.name === activeTechnology)

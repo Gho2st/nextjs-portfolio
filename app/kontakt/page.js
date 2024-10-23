@@ -28,12 +28,12 @@ export default function Kontakt() {
             <div className={classes.containerRight}>
               <ContactItem
                 icon={<FaLocationDot />}
-                header="Location:"
+                header="Lokalizacja:"
                 info="Kraków | Nowy Sącz"
               />
               <ContactItem
                 icon={<FaPhoneAlt />}
-                header="Phone number:"
+                header="Numer Telefonu:"
                 info="+48 576 985 894"
               />
               <ContactItem
